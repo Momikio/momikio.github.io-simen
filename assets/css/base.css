@@ -1,0 +1,555 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-blue: #0d30c3;
+  --color-text: #9a9a9a;
+  --color-text-sML: #888888;
+  --color-red: #e34444;
+  --color-green: #1bbc9b;
+  --color-orange: #f3a46b;
+  --color-purple: #994db1;
+  --font-36: 3.6rem;
+  --font-50: 5rem;
+  --font-14: 1.4rem;
+  --font-20: 2rem;
+  --font-13: 1.3rem;
+  --font-35: 3.5rem;
+  --font-24: 2.4rem;
+  --font-25: 2.5rem;
+  --font-15: 1.5rem;
+  --font-16: 1.6rem;
+  --font-18: 1.8rem;
+  --padding-10: 10px;
+  --padding-15: 15px;
+  --padding-20: 20px;
+  --padding-14: 14px;
+  --margin-18: 18px;
+  --padding-30: 30px;
+  --line-height-30: 30px;
+  --line-height-36: 36px;
+  --line-height-27: 27px;
+  --line-height-50: 50px;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  line-height: 16px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+#container{
+
+}
+/* grid */
+.grid {
+  width: 1170px;
+  max-width:90%;
+  margin: 0 auto;
+}
+.grid__full-width {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+.grid__row {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+  flex-wrap: wrap;
+}
+.grid__col-8 {
+  padding-left: var(--padding-15);
+  padding-right: var(--padding-15);
+  width: 66.6667%;
+}
+.grid__col-6 {
+  padding-left: var(--padding-15);
+  padding-right: var(--padding-15);
+  width: 50%;
+}
+.grid__col-4 {
+  padding-left: var(--padding-15);
+  padding-right: var(--padding-15);
+  width: 33.3334%;
+}
+.grid__col-3 {
+  padding-left: var(--padding-15);
+  padding-right: var(--padding-15);
+  width: 25%;
+}
+.grid__col-2 {
+  padding-left: var(--padding-15);
+  padding-right: var(--padding-15);
+  width: 16.6667%;
+}
+.grid__col-2-4{
+  padding-left: var(--padding-15);
+  padding-right: var(--padding-15);
+  width: 20%;
+}
+.grid__col-1-3{
+  padding-left: var(--padding-15);
+  padding-right: var(--padding-15);
+  width: 11.1116%;
+}
+.hover-color--red:hover {
+  color: var(--color-red);
+}
+/* */
+/* animation */
+
+@keyframes growUp {
+  from {
+    opacity: 0;
+    transform: translateY(5%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes sliderLeft {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: 0;
+  }
+  30% {
+    left: -100%;
+  }
+  55% {
+    left: -100%;
+  }
+  60% {
+    left: -200%;
+  }
+  80% {
+    left: -200%;
+  }
+  85% {
+    left: -300%;
+  }
+  100% {
+    left: -300%;
+  }
+}
+@keyframes translateX {
+  0%{
+     transform: translateX(0%);
+  }
+  15%{
+   transform: translateX(-60%);
+  }
+  30%{
+    transform: translateX(0%);
+  }
+  45%{
+    transform: translateX(-60%);
+  }
+  60%{
+   transform: translateX(0%);
+  }
+  75%{
+     transform: translateX(-60%);
+  }
+  85%{
+    transform: translateX(0%);
+  }
+ 
+  100%{
+   transform: translateX(-60%); 
+  }
+
+}
+/* paragraph */
+.paragraph {
+  color: var(--color-text-sML);
+  font-size: var(--font-14);
+  line-height: 23px;
+}
+.paragraph-overflow{
+  overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+/* btn */
+
+.btn {
+  min-width: 212px;
+  min-height: 36px;
+  text-decoration: none;
+  border: 0.5px solid rgb(231, 230, 230);
+  font-size: var(--font-14);
+  font-weight: 700;
+  display: block;
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+}
+/* btn size small */
+.btn-size-sm{
+  width: 112px;
+ min-height: 36px;
+  text-decoration: none;
+  border: 0.5px solid rgb(231, 230, 230);
+  font-size: var(--font-16);
+  font-weight: 700;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+}
+
+/* btn font text */
+.btn-font-text--sm{
+  font-size: 1.2rem;
+}
+
+/* convert color text and color backgroud */
+.btn-hover__color-convert:hover{
+  background-color: var(--color-red);
+  color: var(--color-white);
+  }
+/* color font text */
+.btn-color--black{
+  color: #3b3b3b;
+ 
+}
+.btn-tcolor--white{
+  color: var(--color-white);
+}
+/* color  backgroud btn */
+.btn-backgroud-color--white {
+  background-color: var(--color-white);
+}
+.btn-backgroud-color--gray{
+  background-color:#333333;
+}
+
+/* effect-img-1 */
+.wrap-img{
+  width: 100%;
+  height: 100%;
+}
+.effect-img-1 {
+  display: block;
+  position: relative;
+}
+
+.effect-img-1::before {
+  border-left: 1px solid rgba(255, 255, 255, 0.8);
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+  bottom: 20px;
+  content: "";
+  left: 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  transform: scale(1, 0);
+  z-index: 10;
+  transition: all 0.4s;
+}
+.effect-img-1::after {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  bottom: 20px;
+  content: "";
+  left: 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  transform: scale(0, 1);
+  transition: all 0.4s;
+}
+.effect-img-1:hover::before,
+.effect-img-1:hover::after {
+  transform: scale(1);
+}
+.img-product {
+  width: 100%;
+  height: 100%;
+  display: block;
+  filter: brightness(1);
+  height: 100%;
+  transition: all 0.4s;
+}
+.effect-img-1:hover .img-product {
+  filter: brightness(0.7);
+}
+/* effect-2 */
+.effect-img-2 {
+  position: relative;
+  display: block;
+}
+.effect-img-2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  background-color: rgba(0, 0, 0, 0.33);
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.effect-img-2::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  background-color: rgba(0, 0, 0, 0.33);
+  height: 100%;
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+}
+.effect-img-2:hover::before,
+.effect-img-2:hover:after {
+  width: 50%;
+}
+/* effect-img-3 */
+.effect-img-3 {
+  display: block;
+  position: relative;
+}
+
+.effect-img-3::before {
+  background: url(../img/plus.png) no-repeat scroll center center / 60px 60px
+    rgba(0, 0, 0, 0.4);
+  content: "";
+  z-index: 10;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform-origin: center;
+  overflow: hidden;
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  margin: auto;
+  transition: all 0.6s;
+}
+
+.effect-img-3:hover::before {
+  width: 100%;
+  height: 100%;
+  transform: scale(1) rotate3d(0, 1, 0, 180deg);
+  visibility: visible;
+  opacity: 0.6;
+}
+/* board content */
+.board-contents{
+  margin-top: 20px;
+  overflow: hidden;
+}
+/* boart item img */
+.board-item__img{
+  position: relative;
+  height: 261px;
+  border: 0.1px solid #e5e5e5;
+}
+.board-item__img-link{
+display: block;
+position: absolute;
+width: 100%;
+}
+.board-item__img-link img{
+  width: 100%;
+}
+/* the card-sale */
+.board-item__card-sale{
+  width: 80px;
+  height: 17px;
+  position: absolute;
+  text-align: center;
+  background-color: #e34444;
+  color: var(--color-white);
+  font-size: 1.2rem;
+  top: 11px;
+  right: -23px;
+  transform: rotate(45deg);
+  font-weight: 500;
+  display: none;
+}
+/* display if add product into cart */
+.board-item__add-cart{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+background-color: rgba(255 ,255 ,255 ,0.5);
+  border: 1px solid var(--color-red);
+  opacity: 0;
+  visibility: hidden;
+  top: 33%;
+right: 40%;
+display: flex;
+}
+.slider-right__add-cart{
+  transform: translateX(calc(100% + 85px));
+  transition: all 0.4s;
+}
+.board-item__img:hover .slider-right__add-cart{
+  transform: translateX(0);
+}
+.board-item__add-cart--active{
+ opacity: 1;
+ visibility:visible;
+}
+.board-item__add-cart i{
+  font-size: var(--font-18);
+  font-weight: var(--font-weight-700);
+  color: var(--color-red);
+  margin: auto;
+}
+.board-item__card-sale.board-item__card-sale--active{
+  display: initial;
+}
+/* an va hien icon da active va chua active [active hien icon check \ chua active hien icon mac dinh] */
+ .boardt-item__icon.boardt-item__icon--none{
+   display:none ;
+ }
+ .boardt-item__icon.boardt-item__icon--active{
+   display:initial ;
+ }
+.boart-item__icon-link:hover i{
+  color: var(--color-red);
+
+}
+/* note icon */
+.slider-left__wrap-icon:hover .note-icon{
+  opacity: 1;
+  visibility: visible;
+}
+
+.note-icon{
+  position: absolute;
+  top: -23px;
+  left: -6px;
+  min-width: 88px;
+  min-height: 22px;
+  background-color: var(--color-red);
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s;
+}
+.note-icon::after{
+  content: "";
+position: absolute;
+top: 22px;
+left: 34px;
+border-style: solid;
+border-width: 6px;
+border-color: var(--color-red) transparent transparent transparent;
+}
+.note-icon span{
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: auto;
+
+}
+/* the om ca hai slider-btn-rigth and slider-icons-left */
+.board-item__btn{
+  position: absolute;
+  bottom: 0;
+}
+
+/* btn slider right */
+.board-item__btn-link i{
+font-size: 1.1rem;
+transform: translateX(-60%);
+
+}
+.board-item__btn-link:hover i{
+animation:translateX 1s ;
+}
+.slider-btn-right{
+  transform: translateX(100%);
+transition: transform 0.4s ease-out;
+}
+
+/* btn slider left */
+
+.slider-icons-left{
+  display: flex;
+  justify-content: center;
+}
+.slider-left__wrap-icon{
+  position: relative;
+}
+.boart-item__icon-link{
+  display:block ;
+ padding: 8px 28px;
+  text-decoration: none;
+  color: var(--color-text-sML);
+  font-size: 1.2rem;
+
+}
+.slider-icons-left{
+  transform: translateX(-100%);
+transition: transform 0.4s ease-out;
+}
+
+/* hover hien 2 thanh [.slider-btn-right] and [.slider-icons-left] */
+.board-item__img:hover .slider-icons-left ,
+.board-item__img:hover .slider-btn-right{
+  transform: translateX(0);
+}
+/* board item content */
+.board-item__contents{
+text-align: center;
+line-height: var(--line-height-27);
+}
+.board-item__text-model a{
+  font-size: var(--font-13);
+  color: #666666;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.price-old{
+font-size: var(--font-13);
+color:#666666 ;
+position: relative;
+}
+.price-old::after{
+  content: '';
+  position: absolute;
+  top:50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #666666;
+}
+.price-new{
+font-size: var(--font-16);
+margin-left: 10px;
+font-weight: 600;
+color: #3b3b3b;
+}
+/* sao vang  */
+.star-gold{
+  color: #f1d201;
+}
