@@ -8,9 +8,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/css/base.css" />
-  <link rel="stylesheet" href="./assets/css/main.css" />
 
+
+
+  <link rel="stylesheet" href="./assets/css/grid.css">
+  <link rel="stylesheet" href="./assets/css/base.css" />
+
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/img/fontawesome-free-5.15.3-web/css/all.min.css" />
@@ -20,459 +25,523 @@
 <body>
   <div id="container">
     <div id="header">
-      <!-- head top -->
+
+
       <div class="header-top ">
-        <div class="grid">
-           <div class="header-top-wrap">
-            <!-- head top left -->
-            <div class="headtop-left">
-              <span class="choice-language-denomi">
-                <div class="choice-language-denomi__text">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/en.jpg" alt="" />
-                  England <i class="fas fa-sort-down"></i>
-                  <ul class="headtop-lists-language">
-                    <li class="headtop-list__item">
-                      <img src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/en.jpg"
-                        alt="" />England
-                    </li>
-                    <li class="headtop-list__item">
-                      <img src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/ru.jpg"
-                        alt="ru" />Rusia
-                    </li>
-                    <li class="headtop-list__item">
-                      <img src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/fr.jpg"
-                        alt="fr" />France
-                    </li>
-                    <li class="headtop-list__item">
-                      <img src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/fr.jpg"
-                        alt="fr" />Brazil
-                    </li>
-                  </ul>
+        <div class="content-wrap-mobile">
+          <div class="grid wide">
+            <!-- head top -->
+            <div class="header-top-wrap">
+              <!-- head top left -->
+              <div class="headtop-left">
+                <span class="choice-language-denomi">
+                  <div class="choice-language-denomi__text">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/en.jpg" alt="" />
+                    England <i class="fas fa-sort-down"></i>
+                    <ul class="headtop-lists-language">
+                      <li class="headtop-list__item">
+                        <img src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/en.jpg"
+                          alt="" />England
+                      </li>
+                      <li class="headtop-list__item">
+                        <img src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/ru.jpg"
+                          alt="ru" />Rusia
+                      </li>
+                      <li class="headtop-list__item">
+                        <img src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/fr.jpg"
+                          alt="fr" />France
+                      </li>
+                      <li class="headtop-list__item">
+                        <img src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/fr.jpg"
+                          alt="fr" />Brazil
+                      </li>
+                    </ul>
+                  </div>
+                </span>
+                <span class="choice-language-denomi">
+                  <div class="choice-language-denomi__text">
+                    USD<i class="fas fa-sort-down"></i>
+                    <ul class="headtop-lists-denomi">
+                      <li class="headtop-list__item">USD</li>
+                      <li class="headtop-list__item">VND</li>
+                    </ul>
+                  </div>
+                </span>
+              </div>
+              <div class="headtop-right-wrap">
+                <div class="icon-anchor hover-color--red display-on__tablet-mobile"><i class="fas fa-anchor"></i></div>
+                <!-- head top right -->
+                <div class="headtop-right">
+                  <a href="" class="headtop-rigth__item hover-color--red">
+                    <i class="fas fa-user"></i> My account
+                  </a>
+                  <a href="" class="headtop-rigth__item hover-color--red">
+                    <i class="far fa-heart"></i>Wishlist
+                  </a>
+                  <a href="" class="headtop-rigth__item hover-color--red">
+                    <i class="far fa-check-square"></i>Checkout
+                  </a>
+                  <a href="" class="headtop-rigth__item hover-color--red">
+                    <i class="fas fa-key"></i>Login
+                  </a>
                 </div>
-              </span>
-              <span class="choice-language-denomi">
-                <div class="choice-language-denomi__text">
-                  USD<i class="fas fa-sort-down"></i>
-                  <ul class="headtop-lists-denomi">
-                    <li class="headtop-list__item">USD</li>
-                    <li class="headtop-list__item">VND</li>
-                  </ul>
-                </div>
-              </span>
+              </div>
+
+
             </div>
-            <!-- head top right -->
-            <div class="headtop-right">
-              <a href="" class="headtop-rigth__item hover-color--red">
-                <i class="fas fa-user"></i> My account
-              </a>
-              <a href="" class="headtop-rigth__item hover-color--red">
-                <i class="far fa-heart"></i>Wishlist
-              </a>
-              <a href="" class="headtop-rigth__item hover-color--red">
-                <i class="far fa-check-square"></i>Checkout
-              </a>
-              <a href="" class="headtop-rigth__item hover-color--red">
-                <i class="fas fa-key"></i>Login
-              </a>
-            </div>
+
           </div>
-        
         </div>
       </div>
-      <div class="grid">
-      
-        <!-- head bottom -->
-        <div class="header-bottom">
-          <div class="headbottom-img">
-            <img src="./assets/img/logo.png" alt="" />
-          </div>
-          <ul class="headbottom-lists">
-            <li class="headbottom-item">
-              <div class="headbottom-item-category">
-                <a href="" class="headbottom-item-category__link"><i class="fas fa-truck"></i></a>
-              </div>
-              <div class="headbottom-item-content">
-                <div class="headbottom-content__text-up">
-                  <a href="">FREE DELIVERY WORLDWIDE</a>
+      <div class="content-wrap-mobile">
+        <div class="grid wide">
+
+          <!-- head bottom -->
+          <div class="header-bottom">
+            <div class="headbottom-img">
+              <img src="./assets/img/logo.png" alt="" />
+            </div>
+            <ul class="headbottom-lists ">
+              <li class="headbottom-item">
+                <div class="headbottom-item-category">
+                  <a href="" class="headbottom-item-category__link"><i class="fas fa-truck"></i></a>
                 </div>
-                <div class="headbottom-content__text-down">
-                  On order over $100
-                </div>
-              </div>
-            </li>
-            <li class="headbottom-item">
-              <div class="headbottom-item-category">
-                <a href="" class="headbottom-item-category__link"><i class="fas fa-cloud-download-alt"></i></a>
-              </div>
-              <div class="headbottom-item-content">
-                <div class="headbottom-content__text-up">
-                  <a href="">UP TO 20% OFF COSY LAYERS</a>
-                </div>
-                <div class="headbottom-content__text-down">
-                  Lorem ipsum dolor sit amet
-                </div>
-              </div>
-            </li>
-            <li class="headbottom-item">
-              <div class="headbottom-item-category">
-                <a href="" class="headbottom-item-category__link"><i class="fas fa-gift"></i></a>
-              </div>
-              <div class="headbottom-item-content">
-                <div class="headbottom-content__text-up">
-                  <a href="">Buy 1 get 1 free</a>
-                </div>
-                <div class="headbottom-content__text-down">
-                  On order over $100
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <!-- head below -->
-        <div class="header-below">
-          <!-- navbar -->
-          <div class="navbar-main">
-            <ul class="lists-navbar-main">
-              <li class="navbar-main-item">
-                <a href="/" class="navbar-main-item__link navbar-main-item__link--active hover-color--red">HOME</a>
-              </li>
-              <li class="navbar-main-item">
-                <a href="" class="navbar-main-item__link hover-color--red">FURNITURE</a>
-                <div class="lists-item-menu2">
-                  <div class="grid__row">
-                    <div class="grid__col-3">
-                      <div class="menu2-title">
-                        <h3>TABLE</h3>
-                      </div>
-                      <ul class="menu2-lists">
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dining Room Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Folding Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">End Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Coffe Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">PedestalTables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Home Office Desks</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="grid__col-3">
-                      <div class="menu2-title">
-                        <h3>TABLE</h3>
-                      </div>
-                      <ul class="menu2-lists">
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dining Room Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Folding Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">End Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Coffe Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">PedestalTables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Home Office Desks</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="grid__col-3">
-                      <div class="menu2-title">
-                        <h3>TABLE</h3>
-                      </div>
-                      <ul class="menu2-lists">
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dining Room Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Folding Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">End Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Coffe Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">PedestalTables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Home Office Desks</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="grid__col-3">
-                      <div class="menu2-title">
-                        <h3>TABLE</h3>
-                      </div>
-                      <ul class="menu2-lists">
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dining Room Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Folding Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">End Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Coffe Tables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">PedestalTables</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Home Office Desks</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
-                        </li>
-                        <li class="menu2-item">
-                          <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="grid__col-6">
-                      <a href="" class="menu2-img">
-                        <img src="./assets/img/anh__pageGhe/banner-mega-22.jpg" alt="" /></a>
-                    </div>
-                    <div class="grid__col-6">
-                      <a href="" class="menu2-img">
-                        <img src="./assets/img/anh__pageGhe/banner-mega-32.jpg" alt="" /></a>
-                    </div>
+                <div class="headbottom-item-content hide-on__tablet-mobile">
+                  <div class="headbottom-content__text-up">
+                    <a href="">FREE DELIVERY WORLDWIDE</a>
+                  </div>
+                  <div class="headbottom-content__text-down">
+                    On order over $100
                   </div>
                 </div>
               </li>
-              <li class="navbar-main-item">
-                <a href="" class="navbar-main-item__link hover-color--red">COFFE TABLE</a>
-              </li>
-              <li class="navbar-main-item">
-                <a href="" class="navbar-main-item__link hover-color--red">SOFAS</a>
-              </li>
-              <li class="navbar-main-item">
-                <a href="" class="navbar-main-item__link hover-color--red">BEDROOM FURNITURE</a>
-                <div class="lists-item-menu2">
-                  <div class="grid__row">
-                    <div class="grid__col-3">
-                      <div class="menu2-board-content">
-                        <div class="wrap-board-img">
-                          <a href="" class="menu2-board-img"><img
-                              src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/12/category-img-1-250x150.png"
-                              alt="" /></a>
-                        </div>
-
-                        <div class="menu2-board-content">
-                          <div class="menu2-board-title">
-                            <a href="">Sofa</a>
-                          </div>
-                          <p class="paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Maecenas eu ornare urna. Suspendisse a
-                            lobortis ex, at efficitur
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="grid__col-3">
-                      <div class="menu2-board-content">
-                        <div class="wrap-board-img">
-                          <a href="" class="menu2-board-img"><img
-                              src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/12/category-img-1-250x150.png"
-                              alt="" /></a>
-                        </div>
-
-                        <div class="menu2-board-content">
-                          <div class="menu2-board-title">
-                            <a href="">Sofa</a>
-                          </div>
-                          <p class="paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Maecenas eu ornare urna. Suspendisse a
-                            lobortis ex, at efficitur
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="grid__col-3">
-                      <div class="menu2-board-content">
-                        <div class="wrap-board-img">
-                          <a href="" class="menu2-board-img"><img
-                              src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/12/avant-garde-design-studios-furniture-250x150.jpg"
-                              alt="" /></a>
-                        </div>
-
-                        <div class="menu2-board-content">
-                          <div class="menu2-board-title">
-                            <a href="">Sofa</a>
-                          </div>
-                          <p class="paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Maecenas eu ornare urna. Suspendisse a
-                            lobortis ex, at efficitur
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="grid__col-3">
-                      <div class="menu2-board-content">
-                        <div class="wrap-board-img">
-                          <a href="" class="menu2-board-img"><img
-                              src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/12/category-img-1-250x150.png"
-                              alt="" /></a>
-                        </div>
-
-                        <div class="menu2-board-content">
-                          <div class="menu2-board-title">
-                            <a href="">Sofa</a>
-                          </div>
-                          <p class="paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Maecenas eu ornare urna. Suspendisse a
-                            lobortis ex, at efficitur
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+              <li class="headbottom-item">
+                <div class="headbottom-item-category">
+                  <a href="" class="headbottom-item-category__link"><i class="fas fa-cloud-download-alt"></i></a>
+                </div>
+                <div class="headbottom-item-content hide-on__tablet-mobile">
+                  <div class="headbottom-content__text-up">
+                    <a href="">UP TO 20% OFF COSY LAYERS</a>
+                  </div>
+                  <div class="headbottom-content__text-down">
+                    Lorem ipsum dolor sit amet
                   </div>
                 </div>
               </li>
-              <li class="navbar-main-item">
-                <a href="" class="navbar-main-item__link hover-color--red">SHOP</a>
-              </li>
-              <li class="navbar-main-item">
-                <a href="" class="navbar-main-item__link hover-color--red">BLOG</a>
-              </li>
-              <li class="navbar-main-item">
-                <a href="" class="navbar-main-item__link hover-color--red">SHORTCODES</a>
-              </li>
-              <li class="navbar-main-item">
-                <a href="" class="navbar-main-item__link hover-color--red">CONTACT US</a>
+              <li class="headbottom-item">
+                <div class="headbottom-item-category">
+                  <a href="" class="headbottom-item-category__link"><i class="fas fa-gift"></i></a>
+                </div>
+                <div class="headbottom-item-content hide-on__tablet-mobile">
+                  <div class="headbottom-content__text-up">
+                    <a href="">Buy 1 get 1 free</a>
+                  </div>
+                  <div class="headbottom-content__text-down">
+                    On order over $100
+                  </div>
+                </div>
               </li>
             </ul>
-            <div class="list-navbar-main-shoping">
-              <div class="navbar-icon">
-                <i class="navbar-main__icon fas fa-search-dollar"> </i>
-                <div class="navbar-search">
-                  <input type="text" class="navbar-input" placeholder="Search entire store here ..." />
-                  <button type="submit" class="navbar-input__link">
-                    Search
-                  </button>
-                </div>
+          </div>
+          <!-- head below -->
+          <div class="header-below">
+            <!-- navbar -->
+            <div class="navbar-main">
+              <ul class="lists-navbar-main hide-navbar">
+                <li class="navbar-main-item">
+                  <a href="/" class="navbar-main-item__link navbar-main-item__link--active hover-color--red">HOME</a>
+                </li>
+                <li class="navbar-main-item">
+                  <a href="" class="navbar-main-item__link hover-color--red">FURNITURE</a>
+                  <div class="lists-item-menu2">
+                    <div class="grid__row">
+                      <div class="grid__col-3">
+                        <div class="menu2-title">
+                          <h3>TABLE</h3>
+                        </div>
+                        <ul class="menu2-lists">
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dining Room Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Folding Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">End Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Coffe Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">PedestalTables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Home Office Desks</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="grid__col-3">
+                        <div class="menu2-title">
+                          <h3>TABLE</h3>
+                        </div>
+                        <ul class="menu2-lists">
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dining Room Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Folding Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">End Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Coffe Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">PedestalTables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Home Office Desks</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="grid__col-3">
+                        <div class="menu2-title">
+                          <h3>TABLE</h3>
+                        </div>
+                        <ul class="menu2-lists">
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dining Room Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Folding Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">End Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Coffe Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">PedestalTables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Home Office Desks</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="grid__col-3">
+                        <div class="menu2-title">
+                          <h3>TABLE</h3>
+                        </div>
+                        <ul class="menu2-lists">
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dining Room Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Folding Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">End Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Coffe Tables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">PedestalTables</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Home Office Desks</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
+                          </li>
+                          <li class="menu2-item">
+                            <a href="" class="menu2-item__link hover-color--red">Kitchen & Dinning Room Desk</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="grid__col-6">
+                        <a href="" class="menu2-img">
+                          <img src="./assets/img/anh__pageGhe/banner-mega-22.jpg" alt="" /></a>
+                      </div>
+                      <div class="grid__col-6">
+                        <a href="" class="menu2-img">
+                          <img src="./assets/img/anh__pageGhe/banner-mega-32.jpg" alt="" /></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="navbar-main-item">
+                  <a href="" class="navbar-main-item__link hover-color--red">COFFE TABLE</a>
+                </li>
+                <li class="navbar-main-item">
+                  <a href="" class="navbar-main-item__link hover-color--red">SOFAS</a>
+                </li>
+                <li class="navbar-main-item">
+                  <a href="" class="navbar-main-item__link hover-color--red">BEDROOM FURNITURE</a>
+                  <div class="lists-item-menu2">
+                    <div class="grid__row">
+                      <div class="grid__col-3">
+                        <div class="menu2-board-content">
+                          <div class="wrap-board-img">
+                            <a href="" class="menu2-board-img"><img
+                                src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/12/category-img-1-250x150.png"
+                                alt="" /></a>
+                          </div>
+
+                          <div class="menu2-board-content">
+                            <div class="menu2-board-title">
+                              <a href="">Sofa</a>
+                            </div>
+                            <p class="paragraph">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit. Maecenas eu ornare urna. Suspendisse a
+                              lobortis ex, at efficitur
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid__col-3">
+                        <div class="menu2-board-content">
+                          <div class="wrap-board-img">
+                            <a href="" class="menu2-board-img"><img
+                                src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/12/category-img-1-250x150.png"
+                                alt="" /></a>
+                          </div>
+
+                          <div class="menu2-board-content">
+                            <div class="menu2-board-title">
+                              <a href="">Sofa</a>
+                            </div>
+                            <p class="paragraph">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit. Maecenas eu ornare urna. Suspendisse a
+                              lobortis ex, at efficitur
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid__col-3">
+                        <div class="menu2-board-content">
+                          <div class="wrap-board-img">
+                            <a href="" class="menu2-board-img"><img
+                                src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/12/avant-garde-design-studios-furniture-250x150.jpg"
+                                alt="" /></a>
+                          </div>
+
+                          <div class="menu2-board-content">
+                            <div class="menu2-board-title">
+                              <a href="">Sofa</a>
+                            </div>
+                            <p class="paragraph">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit. Maecenas eu ornare urna. Suspendisse a
+                              lobortis ex, at efficitur
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid__col-3">
+                        <div class="menu2-board-content">
+                          <div class="wrap-board-img">
+                            <a href="" class="menu2-board-img"><img
+                                src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/12/category-img-1-250x150.png"
+                                alt="" /></a>
+                          </div>
+
+                          <div class="menu2-board-content">
+                            <div class="menu2-board-title">
+                              <a href="">Sofa</a>
+                            </div>
+                            <p class="paragraph">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit. Maecenas eu ornare urna. Suspendisse a
+                              lobortis ex, at efficitur
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="navbar-main-item">
+                  <a href="" class="navbar-main-item__link hover-color--red">SHOP</a>
+                </li>
+                <li class="navbar-main-item">
+                  <a href="" class="navbar-main-item__link hover-color--red">BLOG</a>
+                </li>
+                <li class="navbar-main-item">
+                  <a href="" class="navbar-main-item__link hover-color--red">SHORTCODES</a>
+                </li>
+                <li class="navbar-main-item">
+                  <a href="" class="navbar-main-item__link hover-color--red">CONTACT US</a>
+                </li>
+              </ul>
+              <div class="lists-navbar-sub display-navbar">
+                <label for="check-navbar" class="icon-navbar-sub"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" hidden id="check-navbar">
+                <label for="check-navbar" class="overlay-navbar"></label>
+                <ul class="board-navbar">
+                  <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Home</a>
+                    <input type="checkbox" hidden id="check-home-navbar">
+                    <label for="check-home-navbar" class="arrow-sub-navbar"> <i
+                        class="fas fa-chevron-right"></i></label>
+
+                    <ul class="navbar-sub__menu2">
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Home Page1</a></li>
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Home Page2</a></li>
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Home Page3</a></li>
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Home Page4</a></li>
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Home Page5</a></li>
+                    </ul>
+
+                  </li>
+                  <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Furniture</a>
+                    <input type="checkbox" hidden id="check-fur-navbar">
+                    <label for="check-fur-navbar" class="arrow-sub-navbar"><i class="fas fa-chevron-right"></i></label>
+                    <ul class="navbar-sub__menu2">
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">table 1</a></li>
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">table 2</a></li>
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">table 3</a></li>
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">table 4</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Coffee Tables</a></li>
+                  <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Sofas</a></li>
+                  <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Bedroom furniture</a>
+                    <input type="checkbox" hidden id="check-bedroom-navbar">
+                    <label for="check-bedroom-navbar" class="arrow-sub-navbar"><i
+                        class="fas fa-chevron-right"></i></label>
+                    <ul class="navbar-sub__menu2">
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">bedroom 1</a></li>
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">bedroom 2</a></li>
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">bedroom 3</a></li>
+                      <li class="navbar-sub__item"><a href="" class="navbar-sub__link">bedroom 4</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Shop</a><label for=""
+                      class="arrow-sub-navbar"><i class="fas fa-chevron-right"></i></label></li>
+                  <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Blog</a><label for=""
+                      class="arrow-sub-navbar"><i class="fas fa-chevron-right"></i></label></li>
+                  <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Shortcodes</a><label for=""
+                      class="arrow-sub-navbar"><i class="fas fa-chevron-right"></i></label></li>
+                  <li class="navbar-sub__item"><a href="" class="navbar-sub__link">Contact us</a></li>
+                </ul>
               </div>
-              <div class="navbar-icon">
-                <i class="navbar-main__icon fas fa-shopping-cart"></i>
-                <div class="navbar-main__product-number">
-                  <a href="" style="text-decoration: none">
-                    <span class="product-number">4</span>
-                    <span class="product-text">(items)</span></a>
+              <div class="list-navbar-main-shoping">
+                <div class="navbar-icon">
+                  <i class="navbar-main__icon fas fa-search-dollar"> </i>
+                  <div class="navbar-search">
+                    <input type="text" class="navbar-input" placeholder="Search entire store here ..." />
+                    <button type="submit" class="navbar-input__link">
+                      Search
+                    </button>
+                  </div>
                 </div>
-                <div class="lists-cart">
-                  <!-- neu khong co san pham -->
-                  <div class="cart-buy-none">No products in the cart.</div>
-                  <ul class="lists-cart-buy">
-                    <li class="lists-cart-item">
-                      <a href="">
-                        <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="cart-item__img" /></a>
+                <div class="navbar-icon">
+                  <i class="navbar-main__icon fas fa-shopping-cart"></i>
+                  <div class="navbar-main__product-number">
+                    <a href="" style="text-decoration: none">
+                      <span class="product-number">4</span>
+                      <span class="product-text">(items)</span></a>
+                  </div>
+                  <div class="lists-cart">
+                    <!-- neu khong co san pham -->
+                    <div class="cart-buy-none">No products in the cart.</div>
+                    <ul class="lists-cart-buy">
+                      <li class="lists-cart-item">
+                        <a href="">
+                          <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="cart-item__img" /></a>
 
-                      <div class="cart-item-price">
-                        <a href="" class="cart-item__text">Modular Modern</a>
-                        <div class="cart-item__price-amout">
-                          <span class="cart-item__amout">1</span> x
-                          <span class="cart-item__price">$2.00</span>
+                        <div class="cart-item-price">
+                          <a href="" class="cart-item__text">Modular Modern</a>
+                          <div class="cart-item__price-amout">
+                            <span class="cart-item__amout">1</span> x
+                            <span class="cart-item__price">$2.00</span>
+                          </div>
                         </div>
-                      </div>
-                      <div class="cart-item__icon">
-                        <i class="fas fa-times-circle"></i>
-                      </div>
-                    </li>
-                    <li class="lists-cart-item">
-                      <a href="">
-                        <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="cart-item__img" /></a>
+                        <div class="cart-item__icon">
+                          <i class="fas fa-times-circle"></i>
+                        </div>
+                      </li>
+                      <li class="lists-cart-item">
+                        <a href="">
+                          <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="cart-item__img" /></a>
 
-                      <div class="cart-item-price">
-                        <a href="" class="cart-item__text">Modular Modern</a>
-                        <div class="cart-item__price-amout">
-                          <span class="cart-item__amout">1</span> x
-                          <span class="cart-item__price">$2.00</span>
+                        <div class="cart-item-price">
+                          <a href="" class="cart-item__text">Modular Modern</a>
+                          <div class="cart-item__price-amout">
+                            <span class="cart-item__amout">1</span> x
+                            <span class="cart-item__price">$2.00</span>
+                          </div>
                         </div>
-                      </div>
-                      <div class="cart-item__icon">
-                        <i class="fas fa-times-circle"></i>
-                      </div>
-                    </li>
-                    <li class="lists-cart-item">
-                      <a href="">
-                        <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="cart-item__img" /></a>
+                        <div class="cart-item__icon">
+                          <i class="fas fa-times-circle"></i>
+                        </div>
+                      </li>
+                      <li class="lists-cart-item">
+                        <a href="">
+                          <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="cart-item__img" /></a>
 
-                      <div class="cart-item-price">
-                        <a href="" class="cart-item__text">Modular Modern</a>
-                        <div class="cart-item__price-amout">
-                          <span class="cart-item__amout">1</span> x
-                          <span class="cart-item__price">$2.00</span>
+                        <div class="cart-item-price">
+                          <a href="" class="cart-item__text">Modular Modern</a>
+                          <div class="cart-item__price-amout">
+                            <span class="cart-item__amout">1</span> x
+                            <span class="cart-item__price">$2.00</span>
+                          </div>
                         </div>
-                      </div>
-                      <div class="cart-item__icon">
-                        <i class="fas fa-times-circle"></i>
-                      </div>
-                    </li>
-                    <li class="lists-cart-item">
-                      <a href="">
-                        <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="cart-item__img" /></a>
+                        <div class="cart-item__icon">
+                          <i class="fas fa-times-circle"></i>
+                        </div>
+                      </li>
+                      <li class="lists-cart-item">
+                        <a href="">
+                          <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="cart-item__img" /></a>
 
-                      <div class="cart-item-price">
-                        <a href="" class="cart-item__text">Modular Modern</a>
-                        <div class="cart-item__price-amout">
-                          <span class="cart-item__amout">1</span> x
-                          <span class="cart-item__price">$2.00</span>
+                        <div class="cart-item-price">
+                          <a href="" class="cart-item__text">Modular Modern</a>
+                          <div class="cart-item__price-amout">
+                            <span class="cart-item__amout">1</span> x
+                            <span class="cart-item__price">$2.00</span>
+                          </div>
                         </div>
+                        <div class="cart-item__icon">
+                          <i class="fas fa-times-circle"></i>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="cart-pay" style="display: flex; flex-wrap: wrap">
+                      <div class="cart-pay__sum">
+                        <div class="cart-pay-total">Total</div>
+                        <div class="cart-pay-price">$ 29.00</div>
                       </div>
-                      <div class="cart-item__icon">
-                        <i class="fas fa-times-circle"></i>
+                      <div class="cart-btn">
+                        <a href="" class="btn cart-goto__link">GO TO CART</a>
                       </div>
-                    </li>
-                  </ul>
-                  <div class="cart-pay" style="display: flex; flex-wrap: wrap">
-                    <div class="cart-pay__sum">
-                      <div class="cart-pay-total">Total</div>
-                      <div class="cart-pay-price">$ 29.00</div>
-                    </div>
-                    <div class="cart-btn">
-                      <a href="" class="btn cart-goto__link">GO TO CART</a>
-                    </div>
-                    <div class="cart-btn">
-                      <a href="" class="btn cart-checkout__link btn-backgroud-color--white">CHECKOUT</a>
+                      <div class="cart-btn">
+                        <a href="" class="btn cart-checkout__link btn-backgroud-color--white">CHECKOUT</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -481,1377 +550,1454 @@
           </div>
         </div>
       </div>
+
     </div>
 
-    <div id="content" class="grid">
-      <div class="introduce-img-product">
-        <div class="container-introduce-img-product"> <div class="grid__row">
-          <!-- slider img -->
-          <div class="grid__col-6">
-            <div class="slider-product">
-              <div class="slider-wrap-img">
-                <div class="img-slider slider1"></div>
-                <div class="img-slider slider2"></div>
-                <div class="img-slider slider3"></div>
-                <div class="img-slider slider1"></div>
+    <div id="content" class="grid wide">
+      <div class="content-wrap-mobile">
+        <div class="introduce-img-product">
+          <div class="container-introduce-img-product">
+            <div class="row">
+              <!-- slider img -->
+              <div class="col l-6 m-6 c-12">
+                <div class="slider-product">
+                  <div class="slider-wrap-img">
+                    <div class="img-slider slider1"></div>
+                    <div class="img-slider slider2"></div>
+                    <div class="img-slider slider3"></div>
+                    <div class="img-slider slider1"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- three img with three effect -->
+              <div class="col l-6 m-6 c-12">
+                <div class="product-list-img">
+                  <div class="wrap-img divd">
+                    <a href="" class="effect-img-1">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/5.png" alt=""
+                        class="img-product" /></a>
+                  </div>
+                  <div class="grid-contain__img row">
+                    <div class="col l-6 m-6 c-12">
+                      <div class="wrap-img">
+                        <a href="" class="effect-img-2">
+                          <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner1-300x286.jpg"
+                            alt="" class="img-product" /></a>
+                      </div>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                      <div class="wrap-img">
+                        <a href="" class="effect-img-3">
+                          <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner2-300x286.jpg"
+                            alt="" class="img-product" /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <!-- three img with three effect -->
-          <div class="grid__col-6">
-            <div class="product-list-img">
-              <div class="wrap-img divd">
-                <a href="" class="effect-img-1">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/5.png" alt=""
-                    class="img-product" /></a>
+
+        </div>
+        <div class="lists-product">
+          <div class="row">
+            <div class="lists-product-category hide-on__tablet-mobile">
+              <span class="category-item category-active"><a href=""
+                  class="category-link"><span>LATEST</span></a></span>
+              <span class="category-item"><a href="" class="category-link"><span>BEST SELLER</span></a></span>
+              <span class="category-item"><a href="" class="category-link"><span>FEATURED</span></a></span>
+            </div>
+            <div class="col m-12 c-12">
+              <div class="navbar-lists-product  display-on__tablet-mobile ">
+                <label for="check-navbar-lists-product" class="icon-navbar-sub"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" hidden id="check-navbar-lists-product">
+                <ul class="navbar-lists-category">
+                  <!-- if category active => backgroud blue -->
+                  <li class="navbar-category__item"><a href=""
+                      class="navbar-category__link navbar-category__item--active">LATEST</a></li>
+                  <li class="navbar-category__item"><a href="" class="navbar-category__link">BEST SELLER</a></li>
+                  <li class="navbar-category__item"><a href="" class="navbar-category__link">FEATURED</a></li>
+                </ul>
               </div>
-              <div class="grid-contain__img grid__row">
-                <div class="grid__col-6">
+            </div>
+
+            <div class="col l-2-4 m-3 c-6">
+              <!-- boart content -->
+              <div class="board-contents">
+                <!-- phan anh -->
+                <div class="board-item__img">
+                  <a href="" class="board-item__img-link">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
+                    <!-- neu co sale thi kich hoat  [board-item__card-sale--active] -->
+                    <div class="board-item__card-sale board-item__card-sale--active">
+                      Sale
+                    </div>
+                    <!-- if added product into cart then active [board-item__add-cart--active] -->
+                    <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </a>
+
+                  <div class="board-item__btn">
+                    <div class="slider-btn-right">
+                      <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>ADD TO CART</span>
+                      </a>
+                    </div>
+                    <div class="slider-icons-left hide-on__mobile hide-on__mobile">
+                      <!-- icon defaut if not active 
+                            icon check if active
+                         -->
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Add to Wishlist</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Compare</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Quick view</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- phan noi dung -->
+                <div class="board-item__contents">
+                  <div class="board-item__text-model">
+                    <a href="" class="hover-color--red">Modular Modern</a>
+                  </div>
+                  <div class="board-item__price">
+                    <span class="price-old">$ 9.00</span>
+                    <span class="price-new">$ 7.00</span>
+                  </div>
+                  <div class="board-item__evaluate-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2-4 m-3 c-6">
+              <!-- boart content -->
+              <div class="board-contents">
+                <!-- phan anh -->
+                <div class="board-item__img">
+                  <a href="" class="board-item__img-link">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/26-215x260.jpg" alt="" />
+                    <!-- neu co sale thi kich hoat  [board-item__card-sale--active] -->
+                    <div class="board-item__card-sale">Sale</div>
+                    <!-- if added product into cart then active [board-item__add-cart--active] -->
+                    <div class="board-item__add-cart slider-right__add-cart">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </a>
+
+                  <div class="board-item__btn">
+                    <div class="slider-btn-right">
+                      <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>ADD TO CART</span>
+                      </a>
+                    </div>
+                    <div class="slider-icons-left hide-on__mobile hide-on__mobile">
+                      <div class="slider-left__wrap-icon">
+                        <!-- icon defaut if not active 
+                            icon check if active
+                         -->
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-heart boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Add to Wishlist</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Compare</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Quick view</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- phan noi dung -->
+                <div class="board-item__contents">
+                  <div class="board-item__text-model">
+                    <a href="" class="hover-color--red">Modular Modern</a>
+                  </div>
+                  <div class="board-item__price">
+                    <span class="price-new">$ 10.00</span>
+                  </div>
+                  <div class="board-item__evaluate-star">
+                    <i class="fas fa-star star-gold"></i>
+                    <i class="fas fa-star star-gold"></i>
+                    <i class="fas fa-star star-gold"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2-4 m-3 c-6">
+              <!-- boart content -->
+              <div class="board-contents">
+                <!-- phan anh -->
+                <div class="board-item__img">
+                  <a href="" class="board-item__img-link">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
+                    <!-- neu co sale thi kich hoat  [board-item__card-sale--active] -->
+                    <div class="board-item__card-sale board-item__card-sale--active">
+                      Sale
+                    </div>
+                    <!-- if added product into cart then active [board-item__add-cart--active] -->
+                    <div class="board-item__add-cart slider-right__add-cart ">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </a>
+
+                  <div class="board-item__btn">
+                    <div class="slider-btn-right">
+                      <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>ADD TO CART</span>
+                      </a>
+                    </div>
+                    <div class="slider-icons-left hide-on__mobile">
+                      <div class="slider-left__wrap-icon">
+                        <!-- icon defaut if not active 
+                            icon check if active
+                         -->
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Add to Wishlist</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Compare</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon far fa-eye boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Quick view</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- phan noi dung -->
+                <div class="board-item__contents">
+                  <div class="board-item__text-model">
+                    <a href="" class="hover-color--red">Modular Modern</a>
+                  </div>
+                  <div class="board-item__price">
+                    <span class="price-old">$ 3.00</span>
+                    <span class="price-new">$ 2.00</span>
+                  </div>
+                  <div class="board-item__evaluate-star">
+                    <i class="fas fa-star star-gold"></i>
+                    <i class="fas fa-star star-gold"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2-4 m-3 c-6">
+              <!-- boart content -->
+              <div class="board-contents">
+                <!-- phan anh -->
+                <div class="board-item__img">
+                  <a href="" class="board-item__img-link">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/24-215x260.jpg" alt="" />
+                    <!-- neu co sale thi kich hoat  [board-item__card-sale--active] -->
+                    <div class="board-item__card-sale">Sale</div>
+                    <!-- if added product into cart then active [board-item__add-cart--active] -->
+                    <div class="board-item__add-cart slider-right__add-cart">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </a>
+
+                  <div class="board-item__btn">
+                    <div class="slider-btn-right">
+                      <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>ADD TO CART</span>
+                      </a>
+                    </div>
+                    <div class="slider-icons-left hide-on__mobile">
+                      <div class="slider-left__wrap-icon">
+                        <!-- icon defaut if not active 
+                            icon check if active
+                         -->
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-heart boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Add to Wishlist</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Compare</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Quick view</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- phan noi dung -->
+                <div class="board-item__contents">
+                  <div class="board-item__text-model">
+                    <a href="" class="hover-color--red">Modular Modern</a>
+                  </div>
+                  <div class="board-item__price">
+                    <span class="price-new">$ 19.00</span>
+                  </div>
+                  <div class="board-item__evaluate-star">
+                    <i class="fas fa-star star-gold"></i>
+                    <i class="fas fa-star star-gold"></i>
+                    <i class="fas fa-star star-gold"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2-4 m-3 c-6">
+              <!-- boart content -->
+              <div class="board-contents">
+                <!-- phan anh -->
+                <div class="board-item__img">
+                  <a href="" class="board-item__img-link">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/3-215x260.jpg" alt="" />
+                    <!-- neu co sale thi kich hoat  [board-item__card-sale--active] -->
+                    <div class="board-item__card-sale board-item__card-sale--active">Sale</div>
+                    <!-- if added product into cart then active [board-item__add-cart--active] -->
+                    <div class="board-item__add-cart slider-right__add-cart board-item__add-cart--active">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </a>
+
+                  <div class="board-item__btn">
+                    <div class="slider-btn-right">
+                      <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>ADD TO CART</span>
+                      </a>
+                    </div>
+                    <div class="slider-icons-left hide-on__mobile">
+                      <div class="slider-left__wrap-icon">
+                        <!-- icon defaut if not active 
+                            icon check if active
+                         -->
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-heart boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Add to Wishlist</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Compare</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Quick view</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- phan noi dung -->
+                <div class="board-item__contents">
+                  <div class="board-item__text-model">
+                    <a href="" class="hover-color--red">Modular Modern</a>
+                  </div>
+                  <div class="board-item__price">
+                    <span class="price-new">$ 10.00</span>
+                  </div>
+                  <div class="board-item__evaluate-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lists-product__button">
+              <button class="btn btn-color--black btn-add-more__product btn-hover__color-convert">
+                LOAD MORE ITEMS
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="intro-product-new grid__row">
+          <div class="col l-6 m-6 c-12">
+            <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/call-to-action.jpg" alt=""
+              class="product-img-new" />
+          </div>
+          <div class="col l-6 m-6 c-12">
+            <div class="intro-text-product">
+              <h1 class="intro-title">AXEL - STOOL</h1>
+              <h3>NEW PRODUCTS</h3>
+              <p class="paragraph">
+                Lorem Ipsum has been the industry’s standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived
+                not only five centuries,
+              </p>
+              <div class="intro-product-new__button">
+                <a href=""
+                  class="btn-size-sm btn-color--white btn-tcolor--white btn-backgroud-color--gray btn-hover__color-convert">BUY
+                  NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="suggest-collect">
+          <div class="row">
+            <!-- title -->
+            <div class="most-views__titiel">
+              <span>SUGGEST COLLECTION</span>
+            </div>
+            <div class=" collect-category hide-navbar ">
+              <!-- lists category by img -->
+              <div class="row sm-gutter">
+                <!-- if category selected => class="suggest-category-active" added -->
+                <div class="col l-1-3 suggest-category-active">
+                  <a href="" class="suggest-wrap__text-img">
+                    <div class="suggest-category__img">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/28-92x110.jpg" alt="" />
+
+                    </div>
+                    <div class="suggest-category__name">Office chair</div>
+                  </a>
+                </div>
+                <div class="col l-1-3">
+                  <a href="" class="suggest-wrap__text-img">
+                    <div class="suggest-category__img">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/12/category-img-1-130x36.png"
+                        alt="" />
+
+                    </div>
+                    <div class="suggest-category__name">Sofas</div>
+                  </a>
+                </div>
+                <div class="col l-1-3">
+                  <a href="" class="suggest-wrap__text-img">
+                    <div class="suggest-category__img">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/5-92x110.jpg" alt="" />
+
+                    </div>
+                    <div class="suggest-category__name">Good chair</div>
+                  </a>
+                </div>
+                <div class="col l-1-3">
+                  <a href="" class="suggest-wrap__text-img">
+                    <div class="suggest-category__img">
+                      <img
+                        src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/Furniture-Design-Chair-Yo5Rxnaa-130x98.jpg"
+                        alt="" />
+
+                    </div>
+                    <div class="suggest-category__name">Caffe chair</div>
+                  </a>
+                </div>
+                <div class="col l-1-3">
+                  <a href="" class="suggest-wrap__text-img">
+                    <div class="suggest-category__img">
+                      <img
+                        src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/Ergonomic-Office-Furniture-Design-of-Active-Surface-Table-in-Orange-by-Isis-Concepts-130x98.jpg"
+                        alt="" />
+
+                    </div>
+                    <div class="suggest-category__name">Outdoor table</div>
+                  </a>
+                </div>
+                <div class="col l-1-3">
+                  <a href="" class="suggest-wrap__text-img">
+                    <div class="suggest-category__img">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/26-92x110.jpg" alt="" />
+
+                    </div>
+                    <div class="suggest-category__name">Ipsum Chair</div>
+                  </a>
+                </div>
+                <div class="col l-1-3">
+                  <a href="" class="suggest-wrap__text-img">
+                    <div class="suggest-category__img">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/30-92x110.jpg" alt="" />
+
+                    </div>
+                    <div class="suggest-category__name">Wood chair</div>
+                  </a>
+                </div>
+                <div class="col l-1-3">
+                  <a href="" class="suggest-wrap__text-img">
+                    <div class="suggest-category__img">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/23-92x110.jpg" alt="" />
+
+                    </div>
+                    <div class="suggest-category__name">Coffe table</div>
+                  </a>
+                </div>
+                <div class="col l-1-3">
+                  <a href="" class="suggest-wrap__text-img">
+                    <div class="suggest-category__img">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/21-92x110.jpg" alt="" />
+
+                    </div>
+                    <div class="suggest-category__name">Living room</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col m-12 c-12 ">
+              <div class="navbar-suggest-collect   display-navbar">
+                <label for="check-navbar-suggest-collect" class="icon-navbar-sub"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" hidden id="check-navbar-suggest-collect">
+                <ul class="navbar-lists-category2">
+                  <!-- if category active => backgroud blue -->
+                  <li class="navbar-category2__item"><a href=""
+                      class="navbar-category2__link navbar-category__item--active">Office chair</a></li>
+                  <li class="navbar-category2__item"><a href="" class="navbar-category2__link">Sofas</a></li>
+                  <li class="navbar-category2__item"><a href="" class="navbar-category2__link">Good chair</a></li>
+                  <li class="navbar-category2__item"><a href="" class="navbar-category2__link">Coffee chair</a></li>
+                  <li class="navbar-category2__item"><a href="" class="navbar-category2__link">Ourdoor table</a></li>
+                  <li class="navbar-category2__item"><a href="" class="navbar-category2__link">Ipsum chair</a></li>
+                  <li class="navbar-category2__item"><a href="" class="navbar-category2__link">Wood chair</a></li>
+                  <li class="navbar-category2__item"><a href="" class="navbar-category2__link">Living Room</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6">
+              <!-- boart content -->
+              <div class="board-contents">
+                <!-- phan anh -->
+                <div class="board-item__img">
+                  <a href="" class="board-item__img-link">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
+                    <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
+                    <div class="board-item__card-sale board-item__card-sale--active">
+                      Sale
+                    </div>
+                    <!-- if added product into cart then active [board-item__add-cart--active] -->
+                    <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </a>
+
+                  <div class="board-item__btn">
+                    <div class="slider-btn-right">
+                      <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>ADD TO CART</span>
+                      </a>
+                    </div>
+                    <div class="slider-icons-left hide-on__mobile">
+                      <!-- icon defaut if not active 
+                              icon check if active
+                           -->
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Add to Wishlist</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Compare</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Quick view</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- phan noi dung -->
+                <div class="board-item__contents">
+                  <div class="board-item__text-model">
+                    <a href="" class="hover-color--red">Modular Modern</a>
+                  </div>
+                  <div class="board-item__price">
+                    <span class="price-old">$ 9.00</span>
+                    <span class="price-new">$ 7.00</span>
+                  </div>
+                  <div class="board-item__evaluate-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6">
+              <!-- boart content -->
+              <div class="board-contents">
+                <!-- phan anh -->
+                <div class="board-item__img">
+                  <a href="" class="board-item__img-link">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
+                    <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
+                    <div class="board-item__card-sale board-item__card-sale--active">
+                      Sale
+                    </div>
+                    <!-- if added product into cart then active [board-item__add-cart--active] -->
+                    <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </a>
+
+                  <div class="board-item__btn">
+                    <div class="slider-btn-right">
+                      <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>ADD TO CART</span>
+                      </a>
+                    </div>
+                    <div class="slider-icons-left hide-on__mobile">
+                      <!-- icon defaut if not active 
+                              icon check if active
+                           -->
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Add to Wishlist</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Compare</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Quick view</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- phan noi dung -->
+                <div class="board-item__contents">
+                  <div class="board-item__text-model">
+                    <a href="" class="hover-color--red">Modular Modern</a>
+                  </div>
+                  <div class="board-item__price">
+                    <span class="price-old">$ 9.00</span>
+                    <span class="price-new">$ 7.00</span>
+                  </div>
+                  <div class="board-item__evaluate-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6">
+              <!-- boart content -->
+              <div class="board-contents">
+                <!-- phan anh -->
+                <div class="board-item__img">
+                  <a href="" class="board-item__img-link">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
+                    <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
+                    <div class="board-item__card-sale board-item__card-sale--active">
+                      Sale
+                    </div>
+                    <!-- if added product into cart then active [board-item__add-cart--active] -->
+                    <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </a>
+
+                  <div class="board-item__btn">
+                    <div class="slider-btn-right">
+                      <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>ADD TO CART</span>
+                      </a>
+                    </div>
+                    <div class="slider-icons-left hide-on__mobile">
+                      <!-- icon defaut if not active 
+                              icon check if active
+                           -->
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Add to Wishlist</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Compare</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Quick view</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- phan noi dung -->
+                <div class="board-item__contents">
+                  <div class="board-item__text-model">
+                    <a href="" class="hover-color--red">Modular Modern</a>
+                  </div>
+                  <div class="board-item__price">
+                    <span class="price-old">$ 9.00</span>
+                    <span class="price-new">$ 7.00</span>
+                  </div>
+                  <div class="board-item__evaluate-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6">
+              <!-- boart content -->
+              <div class="board-contents">
+                <!-- phan anh -->
+                <div class="board-item__img">
+                  <a href="" class="board-item__img-link">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
+                    <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
+                    <div class="board-item__card-sale board-item__card-sale--active">
+                      Sale
+                    </div>
+                    <!-- if added product into cart then active [board-item__add-cart--active] -->
+                    <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </a>
+
+                  <div class="board-item__btn">
+                    <div class="slider-btn-right">
+                      <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>ADD TO CART</span>
+                      </a>
+                    </div>
+                    <div class="slider-icons-left hide-on__mobile">
+                      <!-- icon defaut if not active 
+                              icon check if active
+                           -->
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Add to Wishlist</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Compare</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Quick view</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- phan noi dung -->
+                <div class="board-item__contents">
+                  <div class="board-item__text-model">
+                    <a href="" class="hover-color--red">Modular Modern</a>
+                  </div>
+                  <div class="board-item__price">
+                    <span class="price-old">$ 9.00</span>
+                    <span class="price-new">$ 7.00</span>
+                  </div>
+                  <div class="board-item__evaluate-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6">
+              <!-- boart content -->
+              <div class="board-contents">
+                <!-- phan anh -->
+                <div class="board-item__img">
+                  <a href="" class="board-item__img-link">
+                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
+                    <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
+                    <div class="board-item__card-sale board-item__card-sale--active">
+                      Sale
+                    </div>
+                    <!-- if added product into cart then active [board-item__add-cart--active] -->
+                    <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </a>
+
+                  <div class="board-item__btn">
+                    <div class="slider-btn-right">
+                      <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>ADD TO CART</span>
+                      </a>
+                    </div>
+                    <div class="slider-icons-left hide-on__mobile">
+                      <!-- icon defaut if not active 
+                              icon check if active
+                           -->
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Add to Wishlist</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Compare</span>
+                        </div>
+                      </div>
+                      <div class="slider-left__wrap-icon">
+                        <a href="" class="boart-item__icon-link">
+                          <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
+                          <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
+                        </a>
+                        <div class="note-icon">
+                          <span>Quick view</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- phan noi dung -->
+                <div class="board-item__contents">
+                  <div class="board-item__text-model">
+                    <a href="" class="hover-color--red">Modular Modern</a>
+                  </div>
+                  <div class="board-item__price">
+                    <span class="price-old">$ 9.00</span>
+                    <span class="price-new">$ 7.00</span>
+                  </div>
+                  <div class="board-item__evaluate-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="three-img-effect">
+          <div class="row">
+            <div class="col l-6 m-6 c-12">
+              <div class="wrap-img"> <a href="" class="effect-img-1">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/baner-shipping.jpg" alt=""
+                    class="img-product" /></a></div>
+
+            </div>
+            <div class="col l-3 m-3 c-6 c-o-3">
+              <div class="wrap-img"> <a href="" class="effect-img-3">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner3.jpg" alt=""
+                    class="img-product" /></a></div>
+
+            </div>
+            <div class="col l-3 m-3 c-6 c-o-3">
+              <div class="wrap-img"> <a href="" class="effect-img-2">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner4.jpg" alt=""
+                    class="img-product" /></a></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="most-views">
+          <div class="row sm-gutter">
+            <div class="most-views__titiel col l-12 m-12 c-12">
+              <span>MOST VIEWS</span>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="lists-mview-item">
+                <div class="row">
+                  <div class="col l-4 m-12 c-12">
+                     <a href="" class="mview-item__link">
+                      <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a></div>
+                  <div class="col l-7 m-12 c-12">
+                    <div class="mview-item-content">
+                      <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
+                      <div class="mview-item__price-amout">
+                        <span class="mview-item__price-old">$10.00</span>
+                        <span class="mview-item__price-new">$5.00</span>
+                      </div>
+                      <div class="mview-item__lists-star">
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star-half-alt star-gold"></i>
+                        <i class="far fa-star "></i>
+                      </div>
+                      <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
+                      <div class="mview-item__add-cart">
+                        <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
+                          <span class="mview-item__text-add">ADD TO CART</span></a>
+
+
+                        <span class="mview-item__check"><i class="fas fa-check"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="lists-mview-item">
+                <div class="row">
+                  <div class="col l-4 m-12 c-12">
+                     <a href="" class="mview-item__link">
+                      <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a></div>
+                  <div class="col l-7 m-12 c-12">
+                    <div class="mview-item-content">
+                      <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
+                      <div class="mview-item__price-amout">
+                        <span class="mview-item__price-old">$10.00</span>
+                        <span class="mview-item__price-new">$5.00</span>
+                      </div>
+                      <div class="mview-item__lists-star">
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star-half-alt star-gold"></i>
+                        <i class="far fa-star "></i>
+                      </div>
+                      <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
+                      <div class="mview-item__add-cart">
+                        <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
+                          <span class="mview-item__text-add">ADD TO CART</span></a>
+
+
+                        <span class="mview-item__check"><i class="fas fa-check"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="lists-mview-item">
+                <div class="row">
+                  <div class="col l-4 m-12 c-12">
+                     <a href="" class="mview-item__link">
+                      <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a></div>
+                  <div class="col l-7 m-12 c-12">
+                    <div class="mview-item-content">
+                      <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
+                      <div class="mview-item__price-amout">
+                        <span class="mview-item__price-old">$10.00</span>
+                        <span class="mview-item__price-new">$5.00</span>
+                      </div>
+                      <div class="mview-item__lists-star">
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star-half-alt star-gold"></i>
+                        <i class="far fa-star "></i>
+                      </div>
+                      <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
+                      <div class="mview-item__add-cart">
+                        <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
+                          <span class="mview-item__text-add">ADD TO CART</span></a>
+
+
+                        <span class="mview-item__check"><i class="fas fa-check"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="lists-mview-item">
+                <div class="row">
+                  <div class="col l-4 m-12 c-12">
+                     <a href="" class="mview-item__link">
+                      <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a></div>
+                  <div class="col l-7 m-12 c-12">
+                    <div class="mview-item-content">
+                      <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
+                      <div class="mview-item__price-amout">
+                        <span class="mview-item__price-old">$10.00</span>
+                        <span class="mview-item__price-new">$5.00</span>
+                      </div>
+                      <div class="mview-item__lists-star">
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star-half-alt star-gold"></i>
+                        <i class="far fa-star "></i>
+                      </div>
+                      <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
+                      <div class="mview-item__add-cart">
+                        <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
+                          <span class="mview-item__text-add">ADD TO CART</span></a>
+
+
+                        <span class="mview-item__check"><i class="fas fa-check"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="lists-mview-item">
+                <div class="row">
+                  <div class="col l-7 m-12 c-12">
+                     <a href="" class="mview-item__link">
+                      <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a></div>
+                  <div class="col l-7 m-12 c-12">
+                    <div class="mview-item-content">
+                      <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
+                      <div class="mview-item__price-amout">
+                        <span class="mview-item__price-old">$10.00</span>
+                        <span class="mview-item__price-new">$5.00</span>
+                      </div>
+                      <div class="mview-item__lists-star">
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star-half-alt star-gold"></i>
+                        <i class="far fa-star "></i>
+                      </div>
+                      <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
+                      <div class="mview-item__add-cart">
+                        <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
+                          <span class="mview-item__text-add">ADD TO CART</span></a>
+
+
+                        <span class="mview-item__check"><i class="fas fa-check"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="lists-mview-item">
+                <div class="row">
+                  <div class="col l-4 m-12 c-12">
+                     <a href="" class="mview-item__link">
+                      <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a></div>
+                  <div class="col l-7 m-12 c-12">
+                    <div class="mview-item-content">
+                      <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
+                      <div class="mview-item__price-amout">
+                        <span class="mview-item__price-old">$10.00</span>
+                        <span class="mview-item__price-new">$5.00</span>
+                      </div>
+                      <div class="mview-item__lists-star">
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star-half-alt star-gold"></i>
+                        <i class="far fa-star "></i>
+                      </div>
+                      <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
+                      <div class="mview-item__add-cart">
+                        <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
+                          <span class="mview-item__text-add">ADD TO CART</span></a>
+
+
+                        <span class="mview-item__check"><i class="fas fa-check"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="lists-mview-item">
+                <div class="row">
+                  <div class="col l-4 m-12 c-12">
+                     <a href="" class="mview-item__link">
+                      <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a></div>
+                  <div class="col l-7 m-12 c-12">
+                    <div class="mview-item-content">
+                      <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
+                      <div class="mview-item__price-amout">
+                        <span class="mview-item__price-old">$10.00</span>
+                        <span class="mview-item__price-new">$5.00</span>
+                      </div>
+                      <div class="mview-item__lists-star">
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star-half-alt star-gold"></i>
+                        <i class="far fa-star "></i>
+                      </div>
+                      <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
+                      <div class="mview-item__add-cart">
+                        <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
+                          <span class="mview-item__text-add">ADD TO CART</span></a>
+
+
+                        <span class="mview-item__check"><i class="fas fa-check"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="lists-mview-item">
+                <div class="row">
+                  <div class="col l-4 m-12 c-12">
+                     <a href="" class="mview-item__link">
+                      <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a></div>
+                  <div class="col l-7 m-12 c-12">
+                    <div class="mview-item-content">
+                      <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
+                      <div class="mview-item__price-amout">
+                        <span class="mview-item__price-old">$10.00</span>
+                        <span class="mview-item__price-new">$5.00</span>
+                      </div>
+                      <div class="mview-item__lists-star">
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star star-gold"></i>
+                        <i class="fas fa-star-half-alt star-gold"></i>
+                        <i class="far fa-star "></i>
+                      </div>
+                      <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
+                      <div class="mview-item__add-cart">
+                        <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
+                          <span class="mview-item__text-add">ADD TO CART</span></a>
+
+
+                        <span class="mview-item__check"><i class="fas fa-check"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="latest-posts">
+          <div class="row">
+            <div class="most-views__titiel col l-12 m-12 c-12">
+              <span>LATEST POST</span>
+            </div>
+            <div class="col l-4 m-6 c-6">
+              <div class="lposts-board">
+                <div class="lposts-board__img">
                   <div class="wrap-img">
-                    <a href="" class="effect-img-2">
-                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner1-300x286.jpg" alt=""
+                    <a href="" class="effect-img-1">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/110-370x190.jpg" alt=""
                         class="img-product" /></a>
                   </div>
                 </div>
-                <div class="grid__col-6">
+                <div class="lposts-board__content">
+                  <div class="lposts-board__date">
+                    <div class="lposts-board__date-day">3</div>
+                    <div class="lposts-board__date-month">NOV</div>
+                  </div>
+                  <div class="lposts-board__text-content">
+                    <a href="" class="lposts-board__text-link">
+                      <h3>Admin</h3>
+                      <div class="lposts-board__text-title">Latin professor at Hampden-Sydney</div>
+                    </a>
+
+                    <p class="paragraph paragraph-overflow">Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
+                      1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                      has
+                      survived not only five centuries, but also the leap into electronic typesetting, remaining
+                      essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                      containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-6">
+              <div class="lposts-board">
+                <div class="lposts-board__img">
                   <div class="wrap-img">
-                    <a href="" class="effect-img-3">
-                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner2-300x286.jpg" alt=""
+                    <a href="" class="effect-img-1">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/110-370x190.jpg" alt=""
                         class="img-product" /></a>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div></div>
-       
-      </div>
-      <div class="lists-product">
-        <div class="grid__row">
-          <div class="lists-product-category">
-            <span class="category-item category-active"><a href="" class="category-link"><span>LATEST</span></a></span>
-            <span class="category-item"><a href="" class="category-link"><span>BEST SELLER</span></a></span>
-            <span class="category-item"><a href="" class="category-link"><span>FEATURED</span></a></span>
-          </div>
-          <div class="grid__col-2-4">
-            <!-- boart content -->
-            <div class="board-contents">
-              <!-- phan anh -->
-              <div class="board-item__img">
-                <a href="" class="board-item__img-link">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
-                  <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
-                  <div class="board-item__card-sale board-item__card-sale--active">
-                    Sale
+                <div class="lposts-board__content">
+                  <div class="lposts-board__date">
+                    <div class="lposts-board__date-day">3</div>
+                    <div class="lposts-board__date-month">NOV</div>
                   </div>
-                  <!-- if added product into cart then active [board-item__add-cart--active] -->
-                  <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
-                    <i class="fas fa-check"></i>
-                  </div>
-                </a>
-
-                <div class="board-item__btn">
-                  <div class="slider-btn-right">
-                    <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
-                      <i class="fas fa-shopping-cart"></i>
-                      <span>ADD TO CART</span>
+                  <div class="lposts-board__text-content">
+                    <a href="" class="lposts-board__text-link">
+                      <h3>Admin</h3>
+                      <div class="lposts-board__text-title">Latin professor at Hampden-Sydney</div>
                     </a>
+
+                    <p class="paragraph paragraph-overflow">Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
+                      1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                      has
+                      survived not only five centuries, but also the leap into electronic typesetting, remaining
+                      essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                      containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus</p>
                   </div>
-                  <div class="slider-icons-left">
-                    <!-- icon defaut if not active 
-                            icon check if active
-                         -->
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Add to Wishlist</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Compare</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Quick view</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- phan noi dung -->
-              <div class="board-item__contents">
-                <div class="board-item__text-model">
-                  <a href="" class="hover-color--red">Modular Modern</a>
-                </div>
-                <div class="board-item__price">
-                  <span class="price-old">$ 9.00</span>
-                  <span class="price-new">$ 7.00</span>
-                </div>
-                <div class="board-item__evaluate-star">
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="grid__col-2-4">
-            <!-- boart content -->
-            <div class="board-contents">
-              <!-- phan anh -->
-              <div class="board-item__img">
-                <a href="" class="board-item__img-link">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/26-215x260.jpg" alt="" />
-                  <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
-                  <div class="board-item__card-sale">Sale</div>
-                  <!-- if added product into cart then active [board-item__add-cart--active] -->
-                  <div class="board-item__add-cart slider-right__add-cart">
-                    <i class="fas fa-check"></i>
+            <div class="col l-4 m-6 c-6">
+              <div class="lposts-board">
+                <div class="lposts-board__img">
+                  <div class="wrap-img">
+                    <a href="" class="effect-img-1">
+                      <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/110-370x190.jpg" alt=""
+                        class="img-product" /></a>
                   </div>
-                </a>
-
-                <div class="board-item__btn">
-                  <div class="slider-btn-right">
-                    <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
-                      <i class="fas fa-shopping-cart"></i>
-                      <span>ADD TO CART</span>
+                </div>
+                <div class="lposts-board__content">
+                  <div class="lposts-board__date">
+                    <div class="lposts-board__date-day">3</div>
+                    <div class="lposts-board__date-month">NOV</div>
+                  </div>
+                  <div class="lposts-board__text-content">
+                    <a href="" class="lposts-board__text-link">
+                      <h3>Admin</h3>
+                      <div class="lposts-board__text-title">Latin professor at Hampden-Sydney</div>
                     </a>
-                  </div>
-                  <div class="slider-icons-left">
-                    <div class="slider-left__wrap-icon">
-                      <!-- icon defaut if not active 
-                            icon check if active
-                         -->
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-heart boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Add to Wishlist</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Compare</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Quick view</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- phan noi dung -->
-              <div class="board-item__contents">
-                <div class="board-item__text-model">
-                  <a href="" class="hover-color--red">Modular Modern</a>
-                </div>
-                <div class="board-item__price">
-                  <span class="price-new">$ 10.00</span>
-                </div>
-                <div class="board-item__evaluate-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-2-4">
-            <!-- boart content -->
-            <div class="board-contents">
-              <!-- phan anh -->
-              <div class="board-item__img">
-                <a href="" class="board-item__img-link">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
-                  <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
-                  <div class="board-item__card-sale board-item__card-sale--active">
-                    Sale
-                  </div>
-                  <!-- if added product into cart then active [board-item__add-cart--active] -->
-                  <div class="board-item__add-cart slider-right__add-cart">
-                    <i class="fas fa-check"></i>
-                  </div>
-                </a>
 
-                <div class="board-item__btn">
-                  <div class="slider-btn-right">
-                    <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
-                      <i class="fas fa-shopping-cart"></i>
-                      <span>ADD TO CART</span>
-                    </a>
+                    <p class="paragraph paragraph-overflow">Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
+                      1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                      has
+                      survived not only five centuries, but also the leap into electronic typesetting, remaining
+                      essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                      containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus</p>
                   </div>
-                  <div class="slider-icons-left">
-                    <div class="slider-left__wrap-icon">
-                      <!-- icon defaut if not active 
-                            icon check if active
-                         -->
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Add to Wishlist</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Compare</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon far fa-eye boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Quick view</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- phan noi dung -->
-              <div class="board-item__contents">
-                <div class="board-item__text-model">
-                  <a href="" class="hover-color--red">Modular Modern</a>
-                </div>
-                <div class="board-item__price">
-                  <span class="price-old">$ 3.00</span>
-                  <span class="price-new">$ 2.00</span>
-                </div>
-                <div class="board-item__evaluate-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-2-4">
-            <!-- boart content -->
-            <div class="board-contents">
-              <!-- phan anh -->
-              <div class="board-item__img">
-                <a href="" class="board-item__img-link">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/24-215x260.jpg" alt="" />
-                  <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
-                  <div class="board-item__card-sale">Sale</div>
-                  <!-- if added product into cart then active [board-item__add-cart--active] -->
-                  <div class="board-item__add-cart slider-right__add-cart">
-                    <i class="fas fa-check"></i>
-                  </div>
-                </a>
-
-                <div class="board-item__btn">
-                  <div class="slider-btn-right">
-                    <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
-                      <i class="fas fa-shopping-cart"></i>
-                      <span>ADD TO CART</span>
-                    </a>
-                  </div>
-                  <div class="slider-icons-left">
-                    <div class="slider-left__wrap-icon">
-                      <!-- icon defaut if not active 
-                            icon check if active
-                         -->
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-heart boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Add to Wishlist</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Compare</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Quick view</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- phan noi dung -->
-              <div class="board-item__contents">
-                <div class="board-item__text-model">
-                  <a href="" class="hover-color--red">Modular Modern</a>
-                </div>
-                <div class="board-item__price">
-                  <span class="price-new">$ 19.00</span>
-                </div>
-                <div class="board-item__evaluate-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-2-4">
-            <!-- boart content -->
-            <div class="board-contents">
-              <!-- phan anh -->
-              <div class="board-item__img">
-                <a href="" class="board-item__img-link">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/3-215x260.jpg" alt="" />
-                  <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
-                  <div class="board-item__card-sale">Sale</div>
-                  <!-- if added product into cart then active [board-item__add-cart--active] -->
-                  <div class="board-item__add-cart slider-right__add-cart">
-                    <i class="fas fa-check"></i>
-                  </div>
-                </a>
-
-                <div class="board-item__btn">
-                  <div class="slider-btn-right">
-                    <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
-                      <i class="fas fa-shopping-cart"></i>
-                      <span>ADD TO CART</span>
-                    </a>
-                  </div>
-                  <div class="slider-icons-left">
-                    <div class="slider-left__wrap-icon">
-                      <!-- icon defaut if not active 
-                            icon check if active
-                         -->
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-heart boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Add to Wishlist</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Compare</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Quick view</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- phan noi dung -->
-              <div class="board-item__contents">
-                <div class="board-item__text-model">
-                  <a href="" class="hover-color--red">Modular Modern</a>
-                </div>
-                <div class="board-item__price">
-                  <span class="price-new">$ 10.00</span>
-                </div>
-                <div class="board-item__evaluate-star">
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="lists-product__button">
-            <button class="btn btn-color--black btn-add-more__product btn-hover__color-convert">
-              LOAD MORE ITEMS
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="intro-product-new grid__row">
-        <div class="grid__col-6">
-          <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/call-to-action.jpg" alt=""
-            class="product-img-new" />
-        </div>
-        <div class="grid__col-6">
-          <div class="intro-text-product">
-            <h1 class="intro-title">AXEL - STOOL</h1>
-            <h3>NEW PRODUCTS</h3>
-            <p class="paragraph">
-              Lorem Ipsum has been the industry’s standard dummy text ever
-              since the 1500s, when an unknown printer took a galley of type
-              and scrambled it to make a type specimen book. It has survived
-              not only five centuries,
-            </p>
-            <div class="intro-product-new__button">
-              <a href=""
-                class="btn-size-sm btn-color--white btn-tcolor--white btn-backgroud-color--gray btn-hover__color-convert">BUY
-                NOW</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="suggest-collect">
-        <div class="grid__row">
-          <!-- title -->
-          <div class="grid__full-width most-views__titiel">
-            <span>SUGGEST COLLECTION</span>
-          </div>
-          <div class="grid__full-width collect-category">
-            <!-- lists category by img -->
-            <div class="grid__row">
-              <!-- if category selected => class="suggest-category-active" added -->
-              <div class="grid__col-1-3 suggest-category-active">
-                <a href="" class="suggest-wrap__text-img">
-                  <div class="suggest-category__img">
-                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/28-92x110.jpg" alt="" />
-
-                  </div>
-                  <div class="suggest-category__name">Office chair</div>
-                </a>
-              </div>
-              <div class="grid__col-1-3">
-                <a href="" class="suggest-wrap__text-img">
-                  <div class="suggest-category__img">
-                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/12/category-img-1-130x36.png"
-                      alt="" />
-
-                  </div>
-                  <div class="suggest-category__name">Sofas</div>
-                </a>
-              </div>
-              <div class="grid__col-1-3">
-                <a href="" class="suggest-wrap__text-img">
-                  <div class="suggest-category__img">
-                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/5-92x110.jpg" alt="" />
-
-                  </div>
-                  <div class="suggest-category__name">Good chair</div>
-                </a>
-              </div>
-              <div class="grid__col-1-3">
-                <a href="" class="suggest-wrap__text-img">
-                  <div class="suggest-category__img">
-                    <img
-                      src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/Furniture-Design-Chair-Yo5Rxnaa-130x98.jpg"
-                      alt="" />
-
-                  </div>
-                  <div class="suggest-category__name">Caffe chair</div>
-                </a>
-              </div>
-              <div class="grid__col-1-3">
-                <a href="" class="suggest-wrap__text-img">
-                  <div class="suggest-category__img">
-                    <img
-                      src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/Ergonomic-Office-Furniture-Design-of-Active-Surface-Table-in-Orange-by-Isis-Concepts-130x98.jpg"
-                      alt="" />
-
-                  </div>
-                  <div class="suggest-category__name">Outdoor table</div>
-                </a>
-              </div>
-              <div class="grid__col-1-3">
-                <a href="" class="suggest-wrap__text-img">
-                  <div class="suggest-category__img">
-                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/26-92x110.jpg" alt="" />
-
-                  </div>
-                  <div class="suggest-category__name">Ipsum Chair</div>
-                </a>
-              </div>
-              <div class="grid__col-1-3">
-                <a href="" class="suggest-wrap__text-img">
-                  <div class="suggest-category__img">
-                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/30-92x110.jpg" alt="" />
-
-                  </div>
-                  <div class="suggest-category__name">Wood chair</div>
-                </a>
-              </div>
-              <div class="grid__col-1-3">
-                <a href="" class="suggest-wrap__text-img">
-                  <div class="suggest-category__img">
-                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/23-92x110.jpg" alt="" />
-
-                  </div>
-                  <div class="suggest-category__name">Coffe table</div>
-                </a>
-              </div>
-              <div class="grid__col-1-3">
-                <a href="" class="suggest-wrap__text-img">
-                  <div class="suggest-category__img">
-                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/21-92x110.jpg" alt="" />
-
-                  </div>
-                  <div class="suggest-category__name">Living room</div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-2-4">
-            <!-- boart content -->
-            <div class="board-contents">
-              <!-- phan anh -->
-              <div class="board-item__img">
-                <a href="" class="board-item__img-link">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
-                  <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
-                  <div class="board-item__card-sale board-item__card-sale--active">
-                    Sale
-                  </div>
-                  <!-- if added product into cart then active [board-item__add-cart--active] -->
-                  <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
-                    <i class="fas fa-check"></i>
-                  </div>
-                </a>
-
-                <div class="board-item__btn">
-                  <div class="slider-btn-right">
-                    <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
-                      <i class="fas fa-shopping-cart"></i>
-                      <span>ADD TO CART</span>
-                    </a>
-                  </div>
-                  <div class="slider-icons-left">
-                    <!-- icon defaut if not active 
-                              icon check if active
-                           -->
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Add to Wishlist</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Compare</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Quick view</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- phan noi dung -->
-              <div class="board-item__contents">
-                <div class="board-item__text-model">
-                  <a href="" class="hover-color--red">Modular Modern</a>
-                </div>
-                <div class="board-item__price">
-                  <span class="price-old">$ 9.00</span>
-                  <span class="price-new">$ 7.00</span>
-                </div>
-                <div class="board-item__evaluate-star">
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-2-4">
-            <!-- boart content -->
-            <div class="board-contents">
-              <!-- phan anh -->
-              <div class="board-item__img">
-                <a href="" class="board-item__img-link">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
-                  <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
-                  <div class="board-item__card-sale board-item__card-sale--active">
-                    Sale
-                  </div>
-                  <!-- if added product into cart then active [board-item__add-cart--active] -->
-                  <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
-                    <i class="fas fa-check"></i>
-                  </div>
-                </a>
-
-                <div class="board-item__btn">
-                  <div class="slider-btn-right">
-                    <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
-                      <i class="fas fa-shopping-cart"></i>
-                      <span>ADD TO CART</span>
-                    </a>
-                  </div>
-                  <div class="slider-icons-left">
-                    <!-- icon defaut if not active 
-                              icon check if active
-                           -->
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Add to Wishlist</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Compare</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Quick view</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- phan noi dung -->
-              <div class="board-item__contents">
-                <div class="board-item__text-model">
-                  <a href="" class="hover-color--red">Modular Modern</a>
-                </div>
-                <div class="board-item__price">
-                  <span class="price-old">$ 9.00</span>
-                  <span class="price-new">$ 7.00</span>
-                </div>
-                <div class="board-item__evaluate-star">
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-2-4">
-            <!-- boart content -->
-            <div class="board-contents">
-              <!-- phan anh -->
-              <div class="board-item__img">
-                <a href="" class="board-item__img-link">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
-                  <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
-                  <div class="board-item__card-sale board-item__card-sale--active">
-                    Sale
-                  </div>
-                  <!-- if added product into cart then active [board-item__add-cart--active] -->
-                  <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
-                    <i class="fas fa-check"></i>
-                  </div>
-                </a>
-
-                <div class="board-item__btn">
-                  <div class="slider-btn-right">
-                    <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
-                      <i class="fas fa-shopping-cart"></i>
-                      <span>ADD TO CART</span>
-                    </a>
-                  </div>
-                  <div class="slider-icons-left">
-                    <!-- icon defaut if not active 
-                              icon check if active
-                           -->
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Add to Wishlist</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Compare</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Quick view</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- phan noi dung -->
-              <div class="board-item__contents">
-                <div class="board-item__text-model">
-                  <a href="" class="hover-color--red">Modular Modern</a>
-                </div>
-                <div class="board-item__price">
-                  <span class="price-old">$ 9.00</span>
-                  <span class="price-new">$ 7.00</span>
-                </div>
-                <div class="board-item__evaluate-star">
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-2-4">
-            <!-- boart content -->
-            <div class="board-contents">
-              <!-- phan anh -->
-              <div class="board-item__img">
-                <a href="" class="board-item__img-link">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
-                  <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
-                  <div class="board-item__card-sale board-item__card-sale--active">
-                    Sale
-                  </div>
-                  <!-- if added product into cart then active [board-item__add-cart--active] -->
-                  <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
-                    <i class="fas fa-check"></i>
-                  </div>
-                </a>
-
-                <div class="board-item__btn">
-                  <div class="slider-btn-right">
-                    <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
-                      <i class="fas fa-shopping-cart"></i>
-                      <span>ADD TO CART</span>
-                    </a>
-                  </div>
-                  <div class="slider-icons-left">
-                    <!-- icon defaut if not active 
-                              icon check if active
-                           -->
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Add to Wishlist</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Compare</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Quick view</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- phan noi dung -->
-              <div class="board-item__contents">
-                <div class="board-item__text-model">
-                  <a href="" class="hover-color--red">Modular Modern</a>
-                </div>
-                <div class="board-item__price">
-                  <span class="price-old">$ 9.00</span>
-                  <span class="price-new">$ 7.00</span>
-                </div>
-                <div class="board-item__evaluate-star">
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-2-4">
-            <!-- boart content -->
-            <div class="board-contents">
-              <!-- phan anh -->
-              <div class="board-item__img">
-                <a href="" class="board-item__img-link">
-                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg" alt="" />
-                  <!-- neu co sale thi kich hoat  [board-item__add-cart--active] -->
-                  <div class="board-item__card-sale board-item__card-sale--active">
-                    Sale
-                  </div>
-                  <!-- if added product into cart then active [board-item__add-cart--active] -->
-                  <div class="board-item__add-cart board-item__add-cart--active slider-right__add-cart">
-                    <i class="fas fa-check"></i>
-                  </div>
-                </a>
-
-                <div class="board-item__btn">
-                  <div class="slider-btn-right">
-                    <a href="" class="btn board-item__btn-link btn-hover__color-convert btn-backgroud-color--gray">
-                      <i class="fas fa-shopping-cart"></i>
-                      <span>ADD TO CART</span>
-                    </a>
-                  </div>
-                  <div class="slider-icons-left">
-                    <!-- icon defaut if not active 
-                              icon check if active
-                           -->
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-heart boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Add to Wishlist</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon fas fa-share-alt boardt-item__icon--none"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--active"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Compare</span>
-                      </div>
-                    </div>
-                    <div class="slider-left__wrap-icon">
-                      <a href="" class="boart-item__icon-link">
-                        <i class="boardt-item__icon far fa-eye boardt-item__icon--active"></i>
-                        <i class="boardt-item__icon fas fa-check boardt-item__icon--none"></i>
-                      </a>
-                      <div class="note-icon">
-                        <span>Quick view</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- phan noi dung -->
-              <div class="board-item__contents">
-                <div class="board-item__text-model">
-                  <a href="" class="hover-color--red">Modular Modern</a>
-                </div>
-                <div class="board-item__price">
-                  <span class="price-old">$ 9.00</span>
-                  <span class="price-new">$ 7.00</span>
-                </div>
-                <div class="board-item__evaluate-star">
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="three-img-effect">
-        <div class="grid__row">
-          <div class="grid__col-6">
-            <div class="wrap-img"> <a href="" class="effect-img-1">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/baner-shipping.jpg" alt=""
-                  class="img-product" /></a></div>
-
-          </div>
-          <div class="grid__col-3">
-            <div class="wrap-img"> <a href="" class="effect-img-3">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner3.jpg" alt=""
-                  class="img-product" /></a></div>
-
-          </div>
-          <div class="grid__col-3">
-            <div class="wrap-img"> <a href="" class="effect-img-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner4.jpg" alt=""
-                  class="img-product" /></a></div>
-
-          </div>
-        </div>
-      </div>
-      <div class="most-views">
-        <div class="grid__row">
-          <div class="grid__full-width most-views__titiel">
-            <span>MOST VIEWS</span>
-          </div>
-          <div class="grid__col-3">
-            <div class="lists-mview-item">
-              <a href="" class="mview-item__link">
-                <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a>
-
-              <div class="mview-item-content">
-                <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
-                <div class="mview-item__price-amout">
-                  <span class="mview-item__price-old">$10.00</span>
-                  <span class="mview-item__price-new">$5.00</span>
+        <div class="slider-trademark">
+          <div class="slider-trademark-list">
+            <div class="slider-tradmark-item">
+              <div class="row">
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nazic.png" alt="">
                 </div>
-                <div class="mview-item__lists-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star-half-alt star-gold"></i>
-                  <i class="far fa-star "></i>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avan.png" alt="">
                 </div>
-                <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
-                <div class="mview-item__add-cart">
-                  <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
-                    <span class="mview-item__text-add">ADD TO CART</span></a>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/mbm.png" alt="">
+                </div>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nova.png" alt="">
+                </div>
 
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/lamino.png" alt="">
+                </div>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avio.png" alt="">
+                </div>
 
-                  <span class="mview-item__check"><i class="fas fa-check"></i></span>
+              </div>
+            </div>
+            <div class="slider-tradmark-item">
+              <div class="row">
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/mbm.png" alt="">
+                </div>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avan.png" alt="">
+                </div>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nova.png" alt="">
+                </div>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nazic.png" alt="">
+                </div>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avio.png" alt="">
+                </div>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/lamino.png" alt="">
                 </div>
               </div>
             </div>
-          </div>
-          <div class="grid__col-3">
-            <div class="lists-mview-item">
-              <a href="" class="mview-item__link">
-                <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a>
+            <div class="slider-tradmark-item">
+              <div class="row">
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nazic.png" alt="">
+                </div>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avan.png" alt="">
+                </div>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/mbm.png" alt="">
+                </div>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nova.png" alt="">
+                </div>
 
-              <div class="mview-item-content">
-                <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
-                <div class="mview-item__price-amout">
-                  <span class="mview-item__price-old">$10.00</span>
-                  <span class="mview-item__price-new">$5.00</span>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/lamino.png" alt="">
                 </div>
-                <div class="mview-item__lists-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star-half-alt star-gold"></i>
-                  <i class="far fa-star "></i>
+                <div class="col l-2 m-3 c-6">
+                  <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avio.png" alt="">
                 </div>
-                <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
-                <div class="mview-item__add-cart">
-                  <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
-                    <span class="mview-item__text-add">ADD TO CART</span></a>
 
-
-                  <span class="mview-item__check"><i class="fas fa-check"></i></span>
-                </div>
               </div>
-            </div>
-          </div>
-          <div class="grid__col-3">
-            <div class="lists-mview-item">
-              <a href="" class="mview-item__link">
-                <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a>
-
-              <div class="mview-item-content">
-                <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
-                <div class="mview-item__price-amout">
-
-                  <span class="mview-item__price-new">$5.00</span>
-                </div>
-                <div class="mview-item__lists-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star-half-alt star-gold"></i>
-                  <i class="far fa-star "></i>
-                </div>
-                <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
-                <div class="mview-item__add-cart mview-item__add-cart--active">
-                  <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
-                    <span class="mview-item__text-add">ADD TO CART</span></a>
-
-
-                  <span class="mview-item__check"><i class="fas fa-check"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-3">
-            <div class="lists-mview-item">
-              <a href="" class="mview-item__link">
-                <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a>
-
-              <div class="mview-item-content">
-                <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
-                <div class="mview-item__price-amout">
-                  <span class="mview-item__price-old">$10.00</span>
-                  <span class="mview-item__price-new">$5.00</span>
-                </div>
-                <div class="mview-item__lists-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star-half-alt star-gold"></i>
-                  <i class="far fa-star "></i>
-                </div>
-                <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
-                <div class="mview-item__add-cart">
-                  <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
-                    <span class="mview-item__text-add">ADD TO CART</span></a>
-
-
-                  <span class="mview-item__check"><i class="fas fa-check"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-3">
-            <div class="lists-mview-item">
-              <a href="" class="mview-item__link">
-                <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a>
-
-              <div class="mview-item-content">
-                <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
-                <div class="mview-item__price-amout">
-                  <span class="mview-item__price-old">$10.00</span>
-                  <span class="mview-item__price-new">$5.00</span>
-                </div>
-                <div class="mview-item__lists-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star-half-alt star-gold"></i>
-                  <i class="far fa-star "></i>
-                </div>
-                <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
-                <div class="mview-item__add-cart">
-                  <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
-                    <span class="mview-item__text-add">ADD TO CART</span></a>
-
-
-                  <span class="mview-item__check"><i class="fas fa-check"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-3">
-            <div class="lists-mview-item">
-              <a href="" class="mview-item__link">
-                <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a>
-
-              <div class="mview-item-content">
-                <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
-                <div class="mview-item__price-amout">
-                  <span class="mview-item__price-old">$10.00</span>
-                  <span class="mview-item__price-new">$5.00</span>
-                </div>
-                <div class="mview-item__lists-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star-half-alt star-gold"></i>
-                  <i class="far fa-star "></i>
-                </div>
-                <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
-                <div class="mview-item__add-cart">
-                  <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
-                    <span class="mview-item__text-add">ADD TO CART</span></a>
-
-
-                  <span class="mview-item__check"><i class="fas fa-check"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-3">
-            <div class="lists-mview-item">
-              <a href="" class="mview-item__link">
-                <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a>
-
-              <div class="mview-item-content">
-                <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
-                <div class="mview-item__price-amout">
-                  <span class="mview-item__price-old">$10.00</span>
-                  <span class="mview-item__price-new">$5.00</span>
-                </div>
-                <div class="mview-item__lists-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star-half-alt star-gold"></i>
-                  <i class="far fa-star "></i>
-                </div>
-                <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
-                <div class="mview-item__add-cart">
-                  <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
-                    <span class="mview-item__text-add">ADD TO CART</span></a>
-
-
-                  <span class="mview-item__check"><i class="fas fa-check"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-3">
-            <div class="lists-mview-item">
-              <a href="" class="mview-item__link">
-                <img src="./assets/img/anh__pageGhe/10-215x260.jpg" alt="" class="mview-item__img" /></a>
-
-              <div class="mview-item-content">
-                <a href="" class="mview-item__text hover-color--red">Modular Modern</a>
-                <div class="mview-item__price-amout">
-                  <span class="mview-item__price-old">$10.00</span>
-                  <span class="mview-item__price-new">$5.00</span>
-                </div>
-                <div class="mview-item__lists-star">
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star star-gold"></i>
-                  <i class="fas fa-star-half-alt star-gold"></i>
-                  <i class="far fa-star "></i>
-                </div>
-                <!-- if added product into cart then class"mview-item__add-cart--active" added => display icon check -->
-                <div class="mview-item__add-cart">
-                  <a href="" class="hover-color--red"> <i class="fas fa-shopping-cart"></i>
-                    <span class="mview-item__text-add">ADD TO CART</span></a>
-
-
-                  <span class="mview-item__check"><i class="fas fa-check"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="latest-posts">
-        <div class="grid__row">
-          <div class="grid__full-width most-views__titiel">
-            <span>LATEST POST</span>
-          </div>
-          <div class="grid__col-4">
-            <div class="lposts-board">
-              <div class="lposts-board__img">
-                <div class="wrap-img">
-                  <a href="" class="effect-img-1">
-                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/110-370x190.jpg" alt=""
-                      class="img-product" /></a>
-                </div>
-              </div>
-              <div class="lposts-board__content">
-                <div class="lposts-board__date">
-                  <div class="lposts-board__date-day">3</div>
-                  <div class="lposts-board__date-month">NOV</div>
-                </div>
-                <div class="lposts-board__text-content">
-                  <a href="" class="lposts-board__text-link">
-                    <h3>Admin</h3>
-                    <div class="lposts-board__text-title">Latin professor at Hampden-Sydney</div>
-                  </a>
-
-                  <p class="paragraph paragraph-overflow">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    survived not only five centuries, but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-4">
-            <div class="lposts-board">
-              <div class="lposts-board__img">
-                <div class="wrap-img">
-                  <a href="" class="effect-img-1">
-                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/110-370x190.jpg" alt=""
-                      class="img-product" /></a>
-                </div>
-              </div>
-              <div class="lposts-board__content">
-                <div class="lposts-board__date">
-                  <div class="lposts-board__date-day">3</div>
-                  <div class="lposts-board__date-month">NOV</div>
-                </div>
-                <div class="lposts-board__text-content">
-                  <a href="" class="lposts-board__text-link">
-                    <h3>Admin</h3>
-                    <div class="lposts-board__text-title">Latin professor at Hampden-Sydney</div>
-                  </a>
-
-                  <p class="paragraph paragraph-overflow">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    survived not only five centuries, but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid__col-4">
-            <div class="lposts-board">
-              <div class="lposts-board__img">
-                <div class="wrap-img">
-                  <a href="" class="effect-img-1">
-                    <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/110-370x190.jpg" alt=""
-                      class="img-product" /></a>
-                </div>
-              </div>
-              <div class="lposts-board__content">
-                <div class="lposts-board__date">
-                  <div class="lposts-board__date-day">3</div>
-                  <div class="lposts-board__date-month">NOV</div>
-                </div>
-                <div class="lposts-board__text-content">
-                  <a href="" class="lposts-board__text-link">
-                    <h3>Admin</h3>
-                    <div class="lposts-board__text-title">Latin professor at Hampden-Sydney</div>
-                  </a>
-
-                  <p class="paragraph paragraph-overflow">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    survived not only five centuries, but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="slider-trademark">
-        <div class="slider-trademark-list">
-          <div class="slider-tradmark-item">
-            <div class="grid__row">
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nazic.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avan.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/mbm.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nova.png" alt="">
-              </div>
-
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/lamino.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avio.png" alt="">
-              </div>
-
-            </div>
-          </div>
-          <div class="slider-tradmark-item">
-            <div class="grid__row">
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/mbm.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avan.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nova.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nazic.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avio.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/lamino.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="slider-tradmark-item">
-            <div class="grid__row">
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nazic.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avan.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/mbm.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nova.png" alt="">
-              </div>
-
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/lamino.png" alt="">
-              </div>
-              <div class="grid__col-2">
-                <img src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avio.png" alt="">
-              </div>
-
             </div>
           </div>
         </div>
@@ -1859,40 +2005,40 @@
     </div>
   </div>
   <div id="footer">
-    <div class="grid">
-      <div class="grid__row">
-        <div class="grid__col-3">
+    <div class="grid wide">
+      <div class="row">
+        <div class="col l-3 m-6 c-12">
           <div class="footer-wrap">
-             <div class="footer-title">Contact US</div>
-               <div class="footer-content">
-            <div class="contact-contents">
-              <a href="" class="contact-icon"> <i class=" fas fa-home"></i></a>
-              <span class="contact-text">
-                <div>88 South Avenue Street,</div>
-                <div>New York</div>
-              </span>
-             
-            </div>
-            <div class="contact-contents">
-              <a href="" class="contact-icon"><i class="fas fa-phone-alt"></i></a>
-              <span class="contact-text">
-                <div>(12) 3 456 7896</div>
-                <div>(12) 3 456 7895</div>
-              </span>
-            </div>
-            <div class="contact-contents">
-              <a href="" class="contact-icon"><i class="fas fa-envelope"></i></a>
-              <span class="contact-text">
-                <a href="" class="hover-color--red">contact@simen.com</a>
-                <a href="" class="hover-color--red">info@simen.com</a>
-              </span>
+            <div class="footer-title">Contact US</div>
+            <div class="footer-content">
+              <div class="contact-contents">
+                <a href="" class="contact-icon"> <i class=" fas fa-home"></i></a>
+                <span class="contact-text">
+                  <div>88 South Avenue Street,</div>
+                  <div>New York</div>
+                </span>
+
+              </div>
+              <div class="contact-contents">
+                <a href="" class="contact-icon"><i class="fas fa-phone-alt"></i></a>
+                <span class="contact-text">
+                  <div>(12) 3 456 7896</div>
+                  <div>(12) 3 456 7895</div>
+                </span>
+              </div>
+              <div class="contact-contents">
+                <a href="" class="contact-icon"><i class="fas fa-envelope"></i></a>
+                <span class="contact-text">
+                  <a href="" class="hover-color--red">contact@simen.com</a>
+                  <a href="" class="hover-color--red">info@simen.com</a>
+                </span>
+              </div>
             </div>
           </div>
-          </div>
-         
-        
+
+
         </div>
-        <div class="grid__col-2">
+        <div class="col l-2 m-6 c-12">
           <div class="footer-wrap">
             <div class="footer-title">SERVICE</div>
             <div class="footer-content">
@@ -1914,7 +2060,7 @@
             </div>
           </div>
         </div>
-        <div class="grid__col-2">
+        <div class="col l-2 m-6 c-12">
           <div class="footer-wrap">
             <div class="footer-title">ACCOUNT</div>
             <div class="footer-content">
@@ -1936,7 +2082,7 @@
             </div>
           </div>
         </div>
-        <div class="grid__col-2">
+        <div class="col l-2 m-6 c-12">
           <div class="footer-wrap">
             <div class="footer-title">INFORMATION</div>
             <div class="footer-content">
@@ -1958,8 +2104,8 @@
             </div>
           </div>
         </div>
-        <div class="grid__col-3">
-          <div class="footer-wrap">
+        <div class="col l-3 ">
+          <div class="footer-wrap hide-on__tablet-mobile">
             <div class="footer-title">Newsletter</div>
             <div class="footer-content">
               <div class="contact-text">
@@ -1968,7 +2114,8 @@
               <form action="">
                 <input class="footer-input" type="email" placeholder="Your email here" required>
                 <div class="footer-button">
-                  <button  class="btn-size-sm btn-font-text--sm btn-backgroud-color--gray btn-tcolor--white btn-hover__color-convert">SUBSCRIBE</button>
+                  <button
+                    class="btn-size-sm btn-font-text--sm btn-backgroud-color--gray btn-tcolor--white btn-hover__color-convert">SUBSCRIBE</button>
                 </div>
               </form>
             </div>

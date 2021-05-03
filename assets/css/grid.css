@@ -101,8 +101,8 @@ padding-left: 2px;
     flex: 0 0 100%;
     max-width: 100%;
 }
-
-.c-o-1 {
+@media (max-width: 739px){
+  .c-o-1 {
     margin-left: 8.33333%;
 }
 
@@ -144,6 +144,8 @@ padding-left: 2px;
 
 .c-o-11 {
     margin-left: 91.66667%;
+}
+  
 }
 
 
@@ -310,6 +312,7 @@ padding-left: 2px;
     }
 
     .l-1,
+    .l-1-3,
     .l-2,
     .l-2-4,
     .l-3,
@@ -328,6 +331,10 @@ padding-left: 2px;
     .l-1 {
         flex: 0 0 8.33333%;
         max-width: 8.33333%;
+    }
+    .l-1-3{
+        flex: 0 0  11.1111%;
+        max-width: 11.1111%;
     }
 
     .l-2 {
