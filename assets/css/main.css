@@ -124,7 +124,9 @@
   display: flex;
   justify-content: space-between;
 }
-
+.headbottom-img a{
+  -webkit-tap-highlight-color: transparent;
+}
 .headbottom-lists {
   list-style: none;
   display: flex;
@@ -241,8 +243,9 @@
 display: none;
 }
 .icon-navbar-sub{
-  font-size: 2.4rem;
-  color: var(--color-text-sML);
+  font-size: 3.4rem;
+  color:#414141;
+  margin-left: 22px;
 }
 .board-navbar{
   width:30rem;
@@ -953,6 +956,9 @@ margin-left: 6px;
 }
 .mview-item__add-cart > i{
   font-size:1.2rem ;
+}
+.mview-item__text-add{
+  margin-left: 2px;
 }
 .mview-item__check {
   font-size: 1.2rem;
