@@ -47,7 +47,7 @@ html {
   font-weight: 300;
   scroll-behavior: smooth;
 }
-body a{
+body a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.08);
 }
 #container{
@@ -485,6 +485,8 @@ line-height: var(--line-height-27);
   color: #666666;
   font-weight: 400;
   text-decoration: none;
+  display: block;
+  padding-top: 1.6rem;
 }
 
 .price-old{
