@@ -541,11 +541,16 @@ opacity: 0;
 opacity: 0;
   visibility: hidden;
   position: absolute;
+  height: 15rem;
+  overflow-y: auto;
   z-index: 99;
   background-color: var(--color-white);
   border: 0.2px solid rgb(227, 227, 227);
   transition: all 0.3s linear;
-
+  scrollbar-width: none;
+}
+.navbar-lists-category2::-webkit-scrollbar{
+  display: none;
 }
 .navbar-category2__link{
   text-decoration: none;
